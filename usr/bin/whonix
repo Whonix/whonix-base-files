@@ -1,0 +1,231 @@
+#!/bin/bash
+
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+## Thanks to:
+## http://mywiki.wooledge.org/BashFAQ/037
+## Variables for terminal requests.
+[[ -t 2 ]] && {
+   alt=$(      tput smcup  || tput ti      ) # Start alt display
+   ealt=$(     tput rmcup  || tput te      ) # End   alt display
+   hide=$(     tput civis  || tput vi      ) # Hide cursor
+   show=$(     tput cnorm  || tput ve      ) # Show cursor
+   save=$(     tput sc                     ) # Save cursor
+   load=$(     tput rc                     ) # Load cursor
+   bold=$(     tput bold   || tput md      ) # Start bold
+   stout=$(    tput smso   || tput so      ) # Start stand-out
+   estout=$(   tput rmso   || tput se      ) # End stand-out
+   under=$(    tput smul   || tput us      ) # Start underline
+   eunder=$(   tput rmul   || tput ue      ) # End   underline
+   reset=$(    tput sgr0   || tput me      ) # Reset cursor
+   blink=$(    tput blink  || tput mb      ) # Start blinking
+   italic=$(   tput sitm   || tput ZH      ) # Start italic
+   eitalic=$(  tput ritm   || tput ZR      ) # End   italic
+   [[ $TERM != *-m ]] && {
+   red=$(      tput setaf 1|| tput AF 1    )
+   green=$(    tput setaf 2|| tput AF 2    )
+   yellow=$(   tput setaf 3|| tput AF 3    )
+   blue=$(     tput setaf 4|| tput AF 4    )
+   magenta=$(  tput setaf 5|| tput AF 5    )
+   cyan=$(     tput setaf 6|| tput AF 6    )
+   }
+   white=$(    tput setaf 7|| tput AF 7    )
+   default=$(  tput op                     )
+   eed=$(      tput ed     || tput cd      )   # Erase to end of display
+   eel=$(      tput el     || tput ce      )   # Erase to end of line
+   ebl=$(      tput el1    || tput cb      )   # Erase to beginning of line
+   ewl=$eel$ebl                                # Erase whole line
+   draw=$(     tput -S <<< '   enacs
+                                   smacs
+                                   acsc
+                                   rmacs' || { \
+                   tput eA; tput as;
+                   tput ac; tput ae;         } )   # Drawing characters
+   back=$'\b'
+} 2>/dev/null ||:
+
+if [ -f /usr/share/anon-gw-base-files/gateway ]; then
+
+   echo "\
+${bold}Documentation can be found on Whonix homepage.
+https://www.whonix.org
+
+Whonix is based on Debian, VirtualBox and Tor.
+
+The following commands are available on Whonix-Gateway...${reset}
+
+${under}Anonymizing Relay Monitor
+(Vidalia alternative, Tor Controller as console application):${reset}
+arm
+
+${under}Restart Network:${reset}
+sudo service networking restart
+
+${under}Restart Tor:${reset}
+sudo service tor restart
+
+${under}Restart Network Time Synchronisation:${reset}
+timesync
+
+${under}Manually set System Clock:${reset}
+sudo date -s \"17 FEB 2012 24:00:00\" && sudo hwclock -w
+
+${under}Update operating system:${reset}
+sudo apt-get update
+sudo apt-get dist-upgrade
+
+${under}Check Network Time Synchronization and Tor connection:${reset}
+whonixcheck
+
+${under}Swich to clearnet user. clearnet user has direct internet access:${reset}
+(see DNS notes below)
+sudo su clearnet
+
+${under}Reboot:${reset}
+sudo reboot
+
+${under}Power off:${reset}
+sudo poweroff
+
+${under}Circumvent using uwt wrapper (Experts / Debugging only!):${reset}
+/usr/bin/apt-get.anondist-orig
+/usr/bin/wget.anondist-orig
+/usr/bin/curl.anondist-orig
+/usr/bin/gpg.anondist-orig
+/usr/bin/ssh.anondist-orig
+
+${under}check if DNS resolution is functional:${reset}
+- Experts only!
+- This is only a summary.
+- You normally do not need to manually resolve DNS on Whonix-Gateway.
+- Whonix has by default a feature to hide the fact, that you are a Whonix user.
+  - This will NOT hide the fact that you are a Tor user from your ISP!
+    - Hiding the fact, that you are a Tor user, is available as an optional configuration.
+  - Whonix-Workstations traffic goes through Tors Socks-, Dns- or TransPorts.
+  - Whonix-Gateway can only send traffic through Tor as well.
+    - Whonix-Gateway has no longer a Trans- or DnsPort.
+    - For example, "apt-get" will actually call the uwt wrapper /usr/bin/apt-get.
+    - The apt-get uwt wrapper will with help of uwt and torsocks force also
+      Whonix-Gateways traffic through Tor.
+    - Thus hiding the fact, that you are a Whonix user.
+- Only as either,
+  - as clearnet user or
+  - after activation of transparent proxying for Whonix-Gateway
+    in /etc/whonix_firewall.d/ or
+  - after allowing Whonix-Gateways root sending non-Tor traffic
+    in /etc/whonix_firewall.d/
+- chattr -i /etc/resolv.conf
+- fix /etc/resolv.conf either,
+  - manually or
+  - sudo service networking restart
+- nslookup check.torproject.org
+
+${under}Important configuration files:${reset}
+nano /etc/tor/torrc
+
+${under}Important configuration folders:${reset}
+/etc/whonix.d/
+/etc/whonix_firewall.d/
+
+${under}Important logs:${reset}
+tail -f /var/log/syslog
+tail -f -n 20 /var/log/sdwdate.log
+tail -f /var/log/controlportfilt.log
+
+${under} Connection Wizard (Enable/Disable Tor)${reset}
+sudo whonixsetup
+
+${under}Change keyboard layout:${reset}
+sudo dpkg-reconfigure keyboard-configuration
+sudo dpkg-reconfigure console-data
+
+${under}Default username and password for Whonix-Gateway and Whonix-Workstation:${reset}
+Default username: user
+Default password: changeme
+
+${under}For slower output, run:${reset}
+whonix | more
+
+${bold}End of Whonix help.${reset}
+"
+
+elif [ -f /usr/share/anon-ws-base-files/workstation ]; then
+
+   echo "\
+${bold}Documentation can be found on Whonix homepage.
+https://www.whonix.org
+
+Whonix is based on Debian, VirtualBox and Tor.
+
+The following commands are available on Whonix-Workstation...${reset}
+
+${under}Restart Network:${reset}
+sudo service networking restart
+
+${under}Manually set System Clock:${reset}
+sudo date -s \"17 FEB 2012 24:00:00\" && sudo hwclock -w
+
+${under}Update operating system:${reset}
+sudo apt-get update
+sudo apt-get dist-upgrade
+
+${under}Check Network Time Synchronization, Tor connection, Operating system updates, Whonix Version, Whonix News:${reset}
+whonixcheck
+
+${under}Secure Network Time Synchronization:${reset}
+timesync
+
+${under}Reboot:${reset}
+sudo reboot
+
+${under}Power off:${reset}
+sudo poweroff
+
+${under}Circumvent using uwt wrapper (Experts / Debugging only!):${reset}
+/usr/bin/apt-get.anondist-orig
+/usr/bin/wget.anondist-orig
+/usr/bin/curl.anondist-orig
+/usr/bin/gpg.anondist-orig
+/usr/bin/git.anondist-orig
+/usr/bin/ssh.anondist-orig
+
+${under}check if DNS resolution is functional:${reset}
+nslookup check.torproject.org
+
+${under}Important configuration folders:${reset}
+/etc/whonix.d/
+/etc/whonix_firewall.d/
+
+${under}Important logs:${reset}
+tail -f /var/log/syslog
+tail -f -n 20 /var/log/sdwdate.log
+
+${under}Change keyboard layout:${reset}
+sudo dpkg-reconfigure keyboard-configuration
+sudo dpkg-reconfigure console-data
+
+${under}Try to produce a leak (see Whonix documentation):${reset}
+leaktest
+
+${under}Reset xchat idenity:${reset}
+xchat-reset
+
+${under}Tor Browser Launcher:${reset}
+torbrowser
+
+${under}Tor Browser Updater:${reset}
+update-torbrowser
+
+${under}Default username and password for Whonix-Gateway and Whonix-Workstation:${reset}
+Default username: user
+Default password: changeme
+
+${under}For slower output, run:${reset}
+whonix | more
+
+${bold}End of Whonix help.${reset}
+"
+
+fi

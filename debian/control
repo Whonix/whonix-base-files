@@ -1,0 +1,29 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: whonix-base-files
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, config-package-dev (>= 5.1)
+Homepage: https://github.com/Whonix/whonix-base-files
+Vcs-Browser: https://github.com/Whonix/whonix-base-files
+Vcs-Git: https://github.com/Whonix/whonix-base-files.git
+Standards-Version: 3.9.4
+
+Package: whonix-base-files
+Architecture: all
+Depends: ${misc:Depends}
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Whonix base system miscellaneous files
+ issue.whonix
+ motd.whonix
+
+Description-en: Whonix base system miscellaneous files
+ This package contains several important miscellaneous files, such as
+ /etc/issue, /etc/motd, /etc/dpkg/origins/whonix,
+ /home/user/.bashrc, /usr/bin/whonix, and others.
+ .
+ Sets the WHONIX environment variable to 1 as well.
