@@ -14,7 +14,7 @@ Standards-Version: 3.9.4
 
 Package: whonix-base-files
 Architecture: all
-Depends: ${misc:Depends}
+Depends: less, sudo, ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Whonix base system miscellaneous files
