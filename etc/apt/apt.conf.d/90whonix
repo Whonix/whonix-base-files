@@ -24,7 +24,7 @@
 ## Tested.
 ##
 ## Requires a http to socks converter such as privoxy
-## running on 127.0.0.1:9104 forwarding to 192.168.0.10:9104.
+## running on 127.0.0.1:9104 forwarding to 10.152.152.10:9104.
 ## If you want to download through TransPort, leave this out
 ## commented and:
 ##     create a file /etc/whonix.d/20_user with
@@ -40,7 +40,7 @@
 ## Untested.
 ##
 ## Requires a http to socks converter such as privoxy
-## running on 127.0.0.1:9104 forwarding to 192.168.0.10:9104.
+## running on 127.0.0.1:9104 forwarding to 10.152.152.10:9104.
 ## If you want to download through TransPort, leave this out
 ## commented and:
 ##     create a file /etc/whonix.d/20_user with
@@ -56,7 +56,7 @@
 ## Untested.
 ##
 ## Requires a http to socks converter such as privoxy
-## running on 127.0.0.1:9104 forwarding to 192.168.0.10:9104.
+## running on 127.0.0.1:9104 forwarding to 10.152.152.10:9104.
 ## If you want to download through TransPort, leave this out
 ## commented and:
 ##     create a file /etc/whonix.d/20_user with
@@ -73,7 +73,7 @@
 ## that Acquire::socks::proxy is implemented.
 ## As in October 2012, Acquire::socks::proxy is silently ignored.
 ##
-#Acquire::socks::proxy "socks://192.168.0.10:9104/";
+#Acquire::socks::proxy "socks://10.152.152.10:9104/";
 
 ## apt caching proxy:
 ## apt-cacher-ng
