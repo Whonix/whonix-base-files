@@ -133,6 +133,7 @@ ${under}Important logs:${reset}
 tail -f /var/log/syslog
 tail -f -n 20 /var/log/sdwdate.log
 tail -f /var/log/controlportfilt.log
+tail -f /var/log/tor/log
 
 ${under} Connection Wizard (Enable/Disable Tor)${reset}
 sudo whonixsetup
