@@ -106,7 +106,7 @@ ${under}check if DNS resolution is functional:${reset}
   - Whonix-Workstations traffic goes through Tors Socks-, Dns- or TransPorts.
   - Whonix-Gateway can only send traffic through Tor as well.
     - Whonix-Gateway has no longer a Trans- or DnsPort.
-    - For example, "apt-get" will actually call the uwt wrapper /usr/bin/apt-get.
+    - For example, apt-get will actually call the uwt wrapper /usr/bin/apt-get.
     - The apt-get uwt wrapper will with help of uwt and torsocks force also
       Whonix-Gateways traffic through Tor.
     - Thus hiding the fact, that you are a Whonix user.
