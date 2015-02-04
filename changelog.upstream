@@ -1,0 +1,214 @@
+commit 266b94ce3111cd62863b1ce94c411e4ea10be927
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:40:57 2015 +0000
+
+    updated makefile generic to version 1.3
+
+commit e23d00078b57646977d094254207d96096708c0b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 3 23:58:58 2015 +0000
+
+    Added creation of upstream changelog to debian/rules
+
+commit 6f46725d13f226fc786d0e8389d81530bbf18da6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jan 13 11:53:10 2015 +0000
+
+    set:
+    export TOR_HIDE_BROWSER_LOGO=1
+    Hide the Tor Browser Bundle (TBB) logo in tor-launcher. This is useful to
+    avoid users confusing TBB and Whonix. Also useful when running tor-launcher
+    in standalone mode, because then it's not TBB that is starting. Lastly also
+    useful avoid ​trademark issues when redistributing original, unmodified TBB
+    in (linux) distributions.
+    https://trac.torproject.org/projects/tor/ticket/14122
+    https://www.torproject.org/docs/trademark-faq.html.en
+    https://www.whonix.org/wiki/Dev/TPO_Trademark
+
+commit 32cb54968639398eecdac3063b09dafcd38b454a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 7 19:34:59 2015 +0000
+
+    bumped compat from 8 to 9
+
+commit 8cc75987358a010965cf644984025d022199bff4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 5 19:01:23 2014 +0000
+
+    updated generic makefile
+
+commit eeb79bf588176bbbaa141ae99b10c33909652e81
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Nov 9 14:25:15 2014 +0000
+
+    workaround for "bash: Shellshock fix breaks bash function exporting" - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=763164
+
+commit df3a2de1c39af88defeab71106d07dcf76096c70
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Oct 29 19:01:48 2014 +0000
+
+    fix
+
+commit 79c3f54df3c59a1f6ef305b73762de013c3c6a75
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 28 22:35:33 2014 +0000
+
+    makefile: refactoring, avoid using IFS
+
+commit d96d0b82b597d74f2bfd0ef2fb4cadb16bff0735
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 25 01:58:54 2014 +0000
+
+    makefile:
+    - make debdist; make undebdist
+    - cleanup
+    - refactoring
+
+commit 8c0bd788795f7bd2c12a476198c44a7e08052b5e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 23 22:43:05 2014 +0000
+
+    makefile:
+    - new target "make undist", which deletes the upstream tarball
+    - $DISTDIR variable for make (un)dist, which defaults to ".." and can be used to create upstream tarballs in arbitrary locations
+    - refactoring, all function names and global variables now start with "make_" to make the script `source`ing friendly
+    - made `source`able
+
+commit 4c702b05617a066a4d5685de8e2de66ef8a80d04
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 13 12:36:59 2014 +0000
+
+    readme
+
+commit 4ff7af21a46bfe103583da4148c152e46c3b6455
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 19 18:52:45 2014 +0000
+
+    makefile: added new feature "make deb-chl-bumpup" - Bump upstream version number in debian/changelog.
+
+commit 49a81b90114b7126045a414eca9cfc0163220185
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:54:28 2014 +0000
+
+    Updated debian/changelog.
+
+commit cb3db0ae718ed3390783792b2e1ce9f3e75fdc91
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:47:31 2014 +0000
+
+    Fixed changelog date.
+
+commit b4a6ccd2920be9f209f3544799e91badb7a76019
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 18:03:32 2014 +0000
+
+    bump version number
+
+commit 2a0777b54ccbd261455db1bd0b38c5b6d1e8943d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 14 13:35:21 2014 +0000
+
+    Implemented make deb-icup: Combination of make deb-pkg, make deb-pkg-install and make deb-pkg-cleanup.
+
+commit 4db33bfddc4b718400a99498c593745f2656f2ed
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 27 12:42:30 2014 +0000
+
+    packaging
+
+commit 4e8ab525160d7e0feb9873920ae82264171e53a7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 27 04:01:15 2014 +0000
+
+    packaging
+
+commit 6a585973ce9dcbf10d27218786a5fa28d98cc593
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 26 15:26:41 2014 +0000
+
+    packaging
+
+commit 6f4b1215c1cfec1ca9a33a1fe764236f8e872256
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jul 14 02:28:50 2014 +0000
+
+    quotes
+
+commit 1227664bb36777c4f4e7f819a3c1feb58ee1b8b7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 17:31:43 2014 +0000
+
+    packaging
+
+commit 82ba5c2c38c7de53464299fd2a37f75f65320852
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 17:11:04 2014 +0000
+
+    packaging
+
+commit fb86071a3181d73878de8e44d85ce822796dd6a7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 15:34:21 2014 +0000
+
+    packaging
+
+commit 677c4c9d5e0a238a9345924a849101c273f0bb0d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 6 20:51:05 2014 +0000
+
+    output
+
+commit a1ac74b049dde5eb94c9580d3a81df741b617d1c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 6 13:31:32 2014 +0000
+
+    quotes
+
+commit ca6009a4aba53e6f443b424b2b9ada85250b6a9f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 6 13:27:27 2014 +0000
+
+    use $BASH_SOURCE instead of $0
+
+commit 0f659eb70c98fd7a38ac47c4e267cc489ca18c47
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 5 08:11:01 2014 +0000
+
+    Bumped debian revision number to avoid lintian warning "new-package-should-close-itp-bug" so we can use lintian --fail-on-warnings as sanity test.
+
+commit dce318191cf1300845c4b7803da89cef94c27ab3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 24 15:45:15 2014 +0000
+
+    added debian epoch; added dotglob
+
+commit 0bae5439f23ec149a10db71766d40d6c731db541
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 10 14:18:16 2014 +0000
+
+    update IP as per https://www.whonix.org/forum/index.php/topic,107.0.html
+
+commit 59b1a71e4186d3ba084c410010be2c73e1f4e2b5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 3 18:27:39 2014 +0000
+
+    readme
+
+commit 943783ecf46e39d00b23424594a2d176c1297ffc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 1 15:38:48 2014 +0000
+
+    readme
+
+commit 1b3c6d93c8a8c0314aa5024aaa3fd2a316263291
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 31 16:32:09 2014 +0000
+
+    # On branch master
+    nothing to commit (working directory clean)
+
+commit acfb5a6bd6e1abe8a99731a48fd6eff4c453fd8d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 31 14:01:00 2014 +0000
+
+    initial import from https://github.com/Whonix/Whonix
