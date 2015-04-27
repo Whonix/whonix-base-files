@@ -20,7 +20,7 @@ License: GPL-3+
  License version 3 can be found in the file
  `/usr/share/common-licenses/GPL-3'.
 
-Files: /usr/share/whonix/home/.bashrc
+Files: usr/share/whonix/home/.bashrc
 Comments: Downloaded from:
           http://packages.debian.org/jessie/bash
           http://www.webcitation.org/6PnVof0WJ
