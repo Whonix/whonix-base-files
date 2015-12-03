@@ -2,7 +2,7 @@
 
 This package contains several important miscellaneous files, such as
 /etc/issue, /etc/motd, /etc/dpkg/origins/whonix,
-/home/user/.bashrc, /usr/bin/whonix, and others.
+/etc/skel/.bashrc, /usr/bin/whonix, and others.
 
 Sets the WHONIX environment variable to 1 as well.
 
