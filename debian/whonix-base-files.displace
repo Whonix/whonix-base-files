@@ -4,4 +4,4 @@
 
 /etc/issue.whonix
 /etc/motd.whonix
-/etc/skel/.bashrc
+/etc/skel/.bashrc.whonix
