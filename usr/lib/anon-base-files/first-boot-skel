@@ -1,0 +1,68 @@
+#!/bin/bash
+
+set -e
+set -x
+
+cache_folder="/var/cache/anon-base-files"
+done_file="$cache_folder/first-boot-skel.done"
+
+if [ -e "$done_file" ]; then
+   exit 0
+fi
+
+user_name="user"
+home_dir="/home/$user_name"
+
+if [ ! -d "$home_dir" ]; then
+   exit 0
+fi
+
+skel_folder="/etc/skel"
+
+if [ ! -d "$skel_folder" ]; then
+   exit 0
+fi
+
+pushd "$skel_folder"
+
+mkdir -p "$cache_folder"
+
+shopt -s dotglob
+shopt -s nullglob
+
+for fso in ./* ; do
+   true "fso: $fso"
+   ## Technically below for 'cp' it would also be possible to use '$fsoÄ rather
+   ## than '$fso_basename', but the latter produces a prettier xtrace.
+   fso_basename="${fso##*/}"
+   if [ ".bashrc.whonix" = "$fso_basename" ]; then
+      ## We do not need /home/user/.bashrc.whonix.
+      ## /home/user/.bashrc is handled below.
+      continue
+   fi
+   if [ -d "$fso" ]; then
+      true "folder: yes"
+      sudo -u "$user_name" cp --verbose --no-clobber --archive --parents --recursive "$fso_basename" "$home_dir"
+   else
+      true "folder: no"
+      sudo -u "$user_name" cp --verbose --no-clobber --archive "$fso_basename" "$home_dir"
+   fi
+done
+
+if [ ! -f "$skel_folder/.bashrc.whonix" ]; then
+   exit 0
+fi
+if [ ! -f "$skel_folder/.bashrc" ]; then
+   exit 0
+fi
+
+if diff "$skel_folder/.bashrc" "$home_dir/.bashrc" ; then
+   ## no diff found
+   true "Overwriting default $home_dir/.bashrc ( which matches $skel_folder/.bashrc ) with $skel_folder/.bashrc.whonix ."
+   sudo -u "$user_name" cp --verbose --archive "$skel_folder/.bashrc.whonix" "$home_dir/.bashrc"
+else
+   ## a diff was found
+   true "User customized $home_dir/.bashrc Keeping it."
+fi
+
+touch "$done_file"
