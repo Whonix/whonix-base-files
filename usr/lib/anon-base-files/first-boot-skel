@@ -3,8 +3,21 @@
 set -e
 set -x
 
+if command -v qubesdb-read >/dev/null 2>&1 ; then
+   qubes_vm_type="$(qubesdb-read /qubes-vm-type)"
+fi
+
 cache_folder="/var/cache/anon-base-files"
-done_file="$cache_folder/first-boot-skel.done"
+
+if [ "$qubes_vm_type" = "TemplateVM" ]; then
+   ## Separate done file for Qubes TemplateVMs to make this work with the
+   ## current home folder population for Qubes DispVMs.
+   ## https://github.com/QubesOS/qubes-core-agent-linux/blob/f380c346cf9af3f058b8ece853d7d4a5ece28815/misc/dispvm-prerun.sh#L6-L12
+   done_file="$cache_folder/first-boot-skel.TemplateVM.done"
+else
+   ## Non-Qubes-Whonix or non-Qubes TemplateVMs
+   done_file="$cache_folder/first-boot-skel.done"
+fi
 
 if [ -e "$done_file" ]; then
    exit 0
