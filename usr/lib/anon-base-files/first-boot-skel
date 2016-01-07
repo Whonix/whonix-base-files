@@ -3,12 +3,6 @@
 set -e
 set -x
 
-exit_handler() {
-   touch "$done_file"
-}
-
-trap exit_handler EXIT
-
 cache_folder="/var/cache/anon-base-files"
 done_file="$cache_folder/first-boot-skel.done"
 
@@ -56,9 +50,11 @@ for fso in ./* ; do
 done
 
 if [ ! -f "$skel_folder/.bashrc.whonix" ]; then
+   touch "$done_file"
    exit 0
 fi
 if [ ! -f "$skel_folder/.bashrc" ]; then
+   touch "$done_file"
    exit 0
 fi
 
@@ -70,3 +66,5 @@ else
    ## a diff was found
    true "User customized $home_dir/.bashrc Keeping it."
 fi
+
+touch "$done_file"
