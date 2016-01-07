@@ -53,6 +53,11 @@ for fso in ./* ; do
       ## /home/user/.bashrc is handled below.
       continue
    fi
+   if [ ".bashrc.whonix-orig" = "$fso_basename" ]; then
+      ## We do not need /home/user/.bashrc.whonix-orig.
+      ## /home/user/.bashrc is handled below.
+      continue
+   fi
    if [ -d "$fso" ]; then
       true "folder: yes"
       sudo -u "$user_name" cp --verbose --no-clobber --archive --parents --recursive "$fso_basename" "$home_dir"
