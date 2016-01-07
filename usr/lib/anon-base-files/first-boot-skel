@@ -76,7 +76,7 @@ if [ ! -f "$skel_folder/.bashrc" ]; then
    exit 0
 fi
 
-if diff "$skel_folder/.bashrc" "$home_dir/.bashrc" ; then
+if diff "$skel_folder/.bashrc" "$home_dir/.bashrc" >/dev/null ; then
    ## no diff found
    true "Overwriting default $home_dir/.bashrc ( which matches $skel_folder/.bashrc ) with $skel_folder/.bashrc.whonix ."
    sudo -u "$user_name" cp --verbose --archive "$skel_folder/.bashrc.whonix" "$home_dir/.bashrc"
