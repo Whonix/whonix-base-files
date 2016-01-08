@@ -49,7 +49,7 @@ shopt -s nullglob
 
 for fso in ./* ; do
    true "fso: $fso"
-   ## Technically below for 'cp' it would also be possible to use '$fsoÄ rather
+   ## Technically below for 'cp' it would also be possible to use '$fso' rather
    ## than '$fso_basename', but the latter produces a prettier xtrace.
    fso_basename="${fso##*/}"
    if [ ".bashrc.whonix" = "$fso_basename" ]; then
