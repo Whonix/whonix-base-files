@@ -6,7 +6,6 @@
 Description=/home/user from /etc/skel Population at First Boot Service
 Documentation=https://github.com/Whonix/anon-base-files
 
-After=qubes-dvm.service
 After=qubes-mount-dirs.service
 After=qubes-mount-home.service
 
