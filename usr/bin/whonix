@@ -64,7 +64,7 @@ ${under}Restart Network:${reset}
 sudo service networking restart
 
 ${under}Restart Tor:${reset}
-sudo service tor restart
+sudo service tor@default restart
 
 ${under}Restart Network Time Synchronisation:${reset}
 timesync
