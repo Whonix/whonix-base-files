@@ -1,3 +1,131 @@
+commit 41ceba3466079fcf230ac518bbdc0e220f568a8f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 28 11:13:54 2016 +0100
+
+    tor -> tor@default
+
+commit 62a2a3a4b936681657d4ae30a79ec90744761255
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jan 19 22:11:05 2016 +0100
+
+    added marker file /usr/share/whonix/marker
+
+commit 06c2d0dbe67eda4f95b8a4e83acbb2f61774526c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 8 00:58:45 2016 +0000
+
+    comment
+
+commit a5f8b3e8a41b3519a317749f3e7bf1cd4260a4b7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 8 00:54:40 2016 +0000
+
+    licensing
+
+commit 3a895a0c4fd127d69079226619a1ce8c4cbe221c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 8 00:47:37 2016 +0000
+
+    Removed 'After=qubes-dvm.service'.
+    
+    This caused a different issue earlier.
+    'qvm-create-default-dvm whonix-ws - ERROR: Cannot start qubes-guid!'
+    
+    https://github.com/QubesOS/qubes-issues/issues/1591
+    
+    Thanks to @marmarek for debugging the other issue!
+
+commit d3d7da44e1e0ca1d8059c202abefce7e1181ce16
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 7 22:56:38 2016 +0000
+
+    first-boot-skel: hide needless output of diff in the logs
+    
+    https://phabricator.whonix.org/T419
+
+commit 63ed2423f4b6303af32d1daa8affb3e5006e6837
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 7 22:53:56 2016 +0000
+
+    do not needlessly copy .bashrc.whonix-orig from skel to home
+    
+    https://phabricator.whonix.org/T419
+
+commit 9ade708ed7288a1fec4a662b2bf062a8ebffc15c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 7 22:40:51 2016 +0000
+
+    separate done file for Qubes TemplateVMs to make this work with the
+    current home folder population for Qubes DispVMs.
+    https://github.com/QubesOS/qubes-core-agent-linux/blob/f380c346cf9af3f058b8ece853d7d4a5ece28815/misc/dispvm-prerun.sh#L6-L12
+    
+    https://phabricator.whonix.org/T419
+    https://phabricator.whonix.org/T463
+
+commit 9d7da269be22114737317051c5f4c6bce6ca4253
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 7 22:00:50 2016 +0000
+
+    fix / code simplification
+    
+    https://phabricator.whonix.org/T419
+
+commit 1b9242fa04ed283e0dc64b70ac8b4fa376ea6ca7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 4 18:25:00 2016 +0000
+
+    first-boot-skel: fixed done file creation by using exit trap
+
+commit 4ee7f32ba8b7dcf87d9ae31d1ade8b00468520af
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Dec 10 21:31:39 2015 +0000
+
+    populate /home/user from /etc/skel at first boot
+    
+    https://phabricator.whonix.org/T419
+
+commit dc4abe4c01d09b596518a4557c7143a373dea861
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Dec 9 20:20:22 2015 +0000
+
+    no longer show default username and password in terminal in Qubes
+    
+    Thanks to @mfc for the report!
+    
+    https://phabricator.whonix.org/T428
+
+commit 68caf8de77ac2262e88b1ce7271fe55bd7ac6f47
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Dec 9 19:23:58 2015 +0000
+
+    debian/whonix-base-files.displace: fix, added forgotten extension .whonix
+
+commit b58518c8de3ded6e33eec574ccfb226c1d46d5e2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Dec 3 22:26:17 2015 +0000
+
+    fix https://phabricator.whonix.org/T419
+
+commit 1a5ef1f0a16a65d83fc128af41f768795d20aab9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Dec 3 22:20:42 2015 +0000
+
+    added /etc/skel/.bashrc to debian/whonix-base-files.displace
+
+commit c34f29f700eaf354e3bf1f64694b4bc89670b06c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Dec 3 22:17:14 2015 +0000
+
+    no longer write to home folder directly; use /etc/skel
+    
+    https://phabricator.whonix.org/T419
+
+commit c3eda5fb185e5d7f847df1deada72fd1891d004c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 25 14:08:30 2015 +0000
+
+    bumped changelog version
+
 commit b2b6368b9ecad0e3f3b8ac45b44d0d0c43ad85d1
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Jun 3 15:00:32 2015 +0000
