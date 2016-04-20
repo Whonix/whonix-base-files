@@ -66,9 +66,6 @@ sudo service networking restart
 ${under}Restart Tor:${reset}
 sudo service tor@default restart
 
-${under}Restart Network Time Synchronisation:${reset}
-timesync
-
 ${under}Manually set System Clock:${reset}
 sudo date -s \"17 FEB 2012 24:00:00\" && sudo hwclock -w
 
@@ -174,9 +171,6 @@ sudo apt-get dist-upgrade
 
 ${under}Check Network Time Synchronization, Tor connection, Operating system updates, Whonix Version, Whonix News:${reset}
 whonixcheck
-
-${under}Secure Network Time Synchronization:${reset}
-timesync
 
 ${under}Reboot:${reset}
 sudo reboot
