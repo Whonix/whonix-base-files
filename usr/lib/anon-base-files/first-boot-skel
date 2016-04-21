@@ -84,7 +84,7 @@ if [ ! -f "$skel_folder/.bashrc" ]; then
    exit 0
 fi
 
-if diff "$skel_folder/.bashrc.whonix" "$home_dir/.bashrc" ; then
+if diff "$skel_folder/.bashrc.whonix" "$home_dir/.bashrc" >/dev/null ; then
    ## no diff found
    true "Already using Whonix $skel_folder/.bashrc.whonix. No need to copy $skel_folder/.bashrc.whonix."
    touch "$done_file"
