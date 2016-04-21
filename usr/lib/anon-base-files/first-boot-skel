@@ -71,6 +71,10 @@ for fso in ./* ; do
    fi
 done
 
+if [ ! -f "$skel_folder/.bashrc.whonix-orig" ]; then
+   touch "$done_file"
+   exit 0
+fi
 if [ ! -f "$skel_folder/.bashrc.whonix" ]; then
    touch "$done_file"
    exit 0
@@ -80,13 +84,20 @@ if [ ! -f "$skel_folder/.bashrc" ]; then
    exit 0
 fi
 
-if diff "$skel_folder/.bashrc" "$home_dir/.bashrc" >/dev/null ; then
+if diff "$skel_folder/.bashrc.whonix" "$home_dir/.bashrc" ; then
    ## no diff found
-   true "Overwriting default $home_dir/.bashrc ( which matches $skel_folder/.bashrc ) with $skel_folder/.bashrc.whonix ."
+   true "Already using Whonix $skel_folder/.bashrc.whonix. No need to copy $skel_folder/.bashrc.whonix."
+   touch "$done_file"
+   exit 0
+fi
+
+if diff "$skel_folder/.bashrc.whonix-orig" "$home_dir/.bashrc" >/dev/null ; then
+   ## no diff found
+   true "Overwriting default $home_dir/.bashrc ( which matches $skel_folder/.bashrc.whonix-orig ) with $skel_folder/.bashrc.whonix."
    sudo -u "$user_name" cp --verbose --archive "$skel_folder/.bashrc.whonix" "$home_dir/.bashrc"
 else
    ## a diff was found
-   true "User customized $home_dir/.bashrc Keeping it."
+   true "User customized $home_dir/.bashrc. Keeping it."
 fi
 
 touch "$done_file"
