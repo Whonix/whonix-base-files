@@ -64,10 +64,12 @@ for fso in ./* ; do
    fi
    if [ -d "$fso" ]; then
       true "folder: yes"
-      sudo -u "$user_name" cp --verbose --no-clobber --archive --parents --recursive "$fso_basename" "$home_dir"
+      cp --verbose --no-clobber --archive --parents --recursive "$fso_basename" "$home_dir"
+      chown --changes --recursive "$user_name:$user_name" "$home_dir/$fso_basename"
    else
       true "folder: no"
-      sudo -u "$user_name" cp --verbose --no-clobber --archive "$fso_basename" "$home_dir"
+      cp --verbose --no-clobber --archive "$fso_basename" "$home_dir"
+      chown --changes "$user_name:$user_name" "$home_dir/$fso_basename"
    fi
 done
 
@@ -94,7 +96,8 @@ fi
 if diff "$skel_folder/.bashrc.whonix-orig" "$home_dir/.bashrc" >/dev/null ; then
    ## no diff found
    true "Overwriting default $home_dir/.bashrc ( which matches $skel_folder/.bashrc.whonix-orig ) with $skel_folder/.bashrc.whonix."
-   sudo -u "$user_name" cp --verbose --archive "$skel_folder/.bashrc.whonix" "$home_dir/.bashrc"
+   cp --verbose --archive "$skel_folder/.bashrc.whonix" "$home_dir/.bashrc"
+   chown --changes "$user_name:$user_name" "$home_dir/.bashrc"
 else
    ## a diff was found
    true "User customized $home_dir/.bashrc. Keeping it."
