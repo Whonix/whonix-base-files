@@ -1,3 +1,17 @@
+commit 7dca3e197a2dce1fae27363eb412ee63f54e0b27
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 26 21:17:37 2016 +0000
+
+    fixed access rights for first boot skel copy
+    
+    https://phabricator.whonix.org/T419
+
+commit bb52be9cbc46379d1f2ae73dd842d881b8df79a6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 25 23:28:01 2016 +0000
+
+    bumped changelog version
+
 commit e87191e2ae8833cadad08d1949ab36198f9eb239
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 21 21:36:09 2016 +0000
