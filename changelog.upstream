@@ -1,3 +1,17 @@
+commit 34782f82130e5f99c57aa742fad6b4b962392d49
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 9 07:29:39 2017 +0000
+
+    etc/skel/.bashrc.whonix: output uwt settings
+    
+    https://phabricator.whonix.org/T73
+
+commit 86054834a124d3ea6589fba55f5e4c0415e66c0f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 10 02:36:47 2016 +0000
+
+    bumped changelog version
+
 commit 722efc8a7e81d1a708569b8d5bc72f0caebb5b84
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Nov 27 23:00:32 2016 +0100
