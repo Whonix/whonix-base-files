@@ -6,7 +6,7 @@ Source: whonix-base-files
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
-Build-Depends: debhelper (>= 9), faketime, genmkfile, config-package-dev, dh-systemd, ruby-ronn
+Build-Depends: debhelper (>= 9), genmkfile, config-package-dev, dh-systemd, ruby-ronn
 Homepage: https://github.com/Whonix/whonix-base-files
 Vcs-Browser: https://github.com/Whonix/whonix-base-files
 Vcs-Git: https://github.com/Whonix/whonix-base-files.git
