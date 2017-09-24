@@ -121,10 +121,6 @@ ${under}check if DNS resolution is functional:${reset}
     in /etc/whonix_firewall.d/ or
   - after allowing Whonix-Gateways root sending non-Tor traffic
     in /etc/whonix_firewall.d/
-- chattr -i /etc/resolv.conf
-- fix /etc/resolv.conf either,
-  - manually or
-  - sudo service networking restart
 - nslookup check.torproject.org
 
 ${under}Important configuration files:${reset}
