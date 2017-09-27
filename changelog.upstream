@@ -1,3 +1,15 @@
+commit fafbf655bb736acdd0fd551d35cb3e7d228084e4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 24 12:37:01 2017 +0200
+
+    functional gateway dns
+
+commit 86efa61f81cc644cf711d487207b5787d4c9a179
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jul 26 14:41:29 2017 +0000
+
+    bumped changelog version
+
 commit 4c025eb21d030d0834f84c2bb7759d54e73b5f3f
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Mar 28 21:07:25 2017 +0000
