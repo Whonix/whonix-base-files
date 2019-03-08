@@ -1,0 +1,36 @@
+whonix-license(1) -- Whonix License Show
+=============================================
+
+<span class="comment">
+# This file is part of Whonix.
+# Copyright (C) 2012 - 2018 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+# See the file COPYING for copying conditions.
+
+# Not using angle brackets in copyright notice for e-mail address, because
+# angle brackets would result in this file being non-deterministic. (There
+# must be a bug in Debian wheezy in ruby-ronn.)
+
+# Not using "##", because for some reason this comment would be visible in the
+# resulting man page.
+</span>
+
+## SYNOPSIS
+
+`whonix-license`
+
+## DESCRIPTION
+Simply type <whonix-license> in the terminal, you will see file
+
+`/usr/share/doc/whonix/WHONIX_BINARY_LICENSE_AGREEMENT`
+
+## EXAMPLE
+
+`whonix-license | more`
+
+## ONLINE DOCUMENTATION
+
+https://www.whonix.org/wiki/Dev/Licensing
+
+## AUTHOR
+
+This man page has been written by Patrick Schleizer (adrelanos@riseup.net).
