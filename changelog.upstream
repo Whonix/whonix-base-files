@@ -1,3 +1,94 @@
+commit 634c627777cc03003b544d4d46d0afacb0379c1d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Mar 11 06:23:36 2019 -0400
+
+    disclaimer
+
+commit c74b04cf5e3f10df80ebf5872bf56625b5d6e1f8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 8 12:47:34 2019 +0000
+
+    fix
+
+commit a7e72bb96e07d266a559dea62b006a7c1fd1ca60
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 8 12:45:14 2019 +0000
+
+    fix
+
+commit 428db4e81b3600face139117dc6f3450170b091e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 8 12:42:16 2019 +0000
+
+    Implement advice by GPLv3.
+    
+    Quote GPLv3.
+    
+        If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:
+    
+            <program>  Copyright (C) <year>  <name of author>
+            This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+            This is free software, and you are welcome to redistribute it
+            under certain conditions; type `show c' for details.
+    
+        The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.
+
+commit 264cf5ad95d99f3c8221292083bd18e849509a44
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 8 12:38:08 2019 +0000
+
+    WHONIX_DISCLAIMER
+
+commit dcf1806047195cabe942aef6689004149471c5b0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 8 12:27:24 2019 +0000
+
+    implement whonix-license / whonix-disclaimer
+
+commit b86f95d26d36a855343b9908dc3eb93d8c0fe543
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 8 11:44:10 2019 +0000
+
+    new file:   usr/share/doc/whonix/WHONIX_BINARY_LICENSE_AGREEMENT
+
+commit 386e24a74a332f732351909490a3aa90746d32b3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Mar 5 13:28:40 2019 +0000
+
+    lintian
+
+commit c075e72dda1e4709d49a06cd95cd5bb300315be9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 1 14:32:43 2019 +0000
+
+    add improved legal protections clauses
+    
+    The license for software created by Whonix is the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version with additional terms applicable per GNU GPL version 3 section 7.
+    
+    The additional terms are based on the Doom 3 license which is Debian refers to as `GPL-3+-with-id-software-additional-terms`, which is Debian DFSG [1] (The Debian Free Software Guidelines) approved and which is therefore suitable for Debian `main`. Whonix made applied minimal changes to it:
+    
+    * Rewrite `The Doom 3 BFG Edition GPL Source Code` to the more common `this program` which is used throughout the GPL.
+    * Added a "trump clause" [2], in other words, any conflicts or disputes between the additional terms and the GPLv3 shall be resolved in favor of the GPLv3 by adding `Notwithstanding any other provision of this License` (as mentioned in GPL FAQ [3]) at the beginning of the additional terms.
+    
+    [1] https://www.debian.org/social_contract#guidelines
+    [2] https://www.fsf.org/news/canonical-updated-licensing-terms
+    [3] https://www.gnu.org/licenses/gpl-faq.html#v3Notwithstanding
+    
+    For more considerations, see also:
+    https://www.whonix.org/wiki/Dev/Licensing
+
+commit 9557149dda707a93ae1cad711501db239807be7e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 1 09:05:02 2019 +0000
+
+    fix path
+
+commit 44e39713061088dfaf2bb7fef2349821295671ef
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Sep 10 07:37:16 2018 +0000
+
+    bumped changelog version
+
 commit 205146959d65a1912e76066bb6f9322f75a7579a
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Sep 9 21:05:27 2018 +0000
