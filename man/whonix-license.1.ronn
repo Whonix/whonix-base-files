@@ -21,7 +21,7 @@ whonix-license(1) -- Whonix License Show
 ## DESCRIPTION
 Simply type <whonix-license> in the terminal, you will see file
 
-`/usr/share/doc/whonix/WHONIX_BINARY_LICENSE_AGREEMENT`
+`/usr/share/whonix/WHONIX_BINARY_LICENSE_AGREEMENT`
 
 ## EXAMPLE
 

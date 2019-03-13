@@ -21,7 +21,7 @@ whonix-disclaimer(1) -- Whonix Disclaimer Show
 ## DESCRIPTION
 Simply type <whonix-disclaimer> in the terminal, you will see file
 
-`/usr/share/doc/whonix/WHONIX_DISCLAIMER`
+`/usr/share/whonix/WHONIX_DISCLAIMER`
 
 ## EXAMPLE
 
