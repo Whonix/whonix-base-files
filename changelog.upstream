@@ -1,3 +1,27 @@
+commit e716e7b904aa5eb0d8250345fb83292e92f4369c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 29 09:08:09 2019 +0000
+
+    fix path
+
+commit ee07b04ba82849d071599d98fe1bd0b7d986283e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 29 09:04:45 2019 +0000
+
+    https://www.whonix.org/wiki/Dev/Licensing
+
+commit 1977aea1351d34c379b7e642b65976ac2d162ff3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 29 09:03:20 2019 +0000
+
+    https://www.whonix.org/wiki/Dev/Licensing
+
+commit 1fe89f2dfcc2c620f8802d1d8b08fe9184f32534
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Mar 13 21:13:41 2019 +0000
+
+    bumped changelog version
+
 commit ddc9933fe07f28fb59032e4ac278389f9510c5a6
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Mar 13 13:47:32 2019 +0000
