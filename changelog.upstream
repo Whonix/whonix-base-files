@@ -1,3 +1,15 @@
+commit 290cf20a66443847a52ca4ba15fbbb7eb5b9e836
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Apr 6 14:51:34 2019 +0000
+
+    bump /etc/whonix_version to 15
+
+commit 06498dedde0a5692931d57185b788c26eca461bd
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Apr 6 12:21:12 2019 +0000
+
+    bumped changelog version
+
 commit 04be61370db4b136272cf8868b1d6a1f54786c2a
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 4 08:35:04 2019 -0400
