@@ -1,3 +1,17 @@
+commit 4d62849900f6a53bddc87377db02ba55b37e59ec
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 11 17:59:39 2019 -0400
+
+    grub branding
+    
+    GRUB_DISTRIBUTOR="Whonix"
+
+commit 139968f68d69523c94caf25129d2c72fa73c44f0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Apr 6 16:09:27 2019 +0000
+
+    bumped changelog version
+
 commit 290cf20a66443847a52ca4ba15fbbb7eb5b9e836
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Apr 6 14:51:34 2019 +0000
