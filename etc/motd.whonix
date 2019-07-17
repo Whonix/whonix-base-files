@@ -21,7 +21,6 @@ Whonix is experimental software by means of concept and design.
 Do not rely on it for strong anonymity.
 
 default user account: user
-default root account: root
-default passwords: changeme
+default password: changeme
 
 Type: "whonix" <enter> for help.

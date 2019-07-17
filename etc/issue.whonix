@@ -3,6 +3,15 @@ Welcome to Whonix!
 https://www.whonix.org
 
 default user account: user
-default root account: root
+default password: changeme
 
-default passwords: changeme
+The root account might be already or should be locked. This is a security feature. See:
+https://www.whonix.org/wiki/root
+
+Ignore "host login:" below. Do not enter your host username or host password if this is a virtual machine.
+
+Login Instructions:
+
+1) Type the username. Default user name is "user" without quotes. Then press <enter>.
+
+2) Type the password. When entering the password, no password feedback (no asterisk ("*") symbol) will be shown. Default password is "changeme" without quotes. Then press <enter>.
