@@ -1,3 +1,17 @@
+commit ff6a6a7b73edb5d06c454c663e52e8119cf3b954
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jul 17 21:35:18 2019 +0000
+
+    update instructions for default locked root account
+    
+    https://www.whonix.org/wiki/Root
+
+commit f8f15934c17c07b653bb4c35bb279a88362142c8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 30 07:15:32 2019 -0400
+
+    bumped changelog version
+
 commit fb723fd31a7f8647163763f1752fbb12910887cb
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Jun 29 13:45:41 2019 +0000
