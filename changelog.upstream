@@ -1,3 +1,31 @@
+commit fe391c0847a1b1bbf23c48ea6baafea357037a9f
+Merge: aea79dc 0fd78b6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jul 19 09:23:34 2019 +0000
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 0fd78b6136e3cb28c1c4e32110e379d61dd2a33d
+Merge: aea79dc 54a2d8c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jul 19 09:23:15 2019 +0000
+
+    Merge pull request #1 from 0brand/master
+    
+    Update login instructions
+
+commit 54a2d8c3ad6239cfbf192609026118704980b5ce
+Author: 0brand <0brand@mailbox.org>
+Date:   Fri Jul 19 01:04:36 2019 +0000
+
+    Update login instructions
+
+commit aea79dccb96916783178fb2a398a76db0b0cf9d1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jul 17 21:39:00 2019 +0000
+
+    bumped changelog version
+
 commit ff6a6a7b73edb5d06c454c663e52e8119cf3b954
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Jul 17 21:35:18 2019 +0000
