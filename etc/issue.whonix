@@ -2,13 +2,13 @@ Welcome to Whonix!
 
 https://www.whonix.org
 
-default user account: user
+default username: user
 default password: changeme
 
-The root account might be already or should be locked. This is a security feature. See:
+The default root account is locked (or should be locked). This is a security feature. See:
 https://www.whonix.org/wiki/root
 
-Ignore "host login:" below. Do not enter your host username or host password if this is a virtual machine.
+Ignore "host login:" below. Do not enter your current host computer username or password if this is a virtual machine.
 
 Login Instructions:
 
