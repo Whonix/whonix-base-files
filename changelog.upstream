@@ -1,3 +1,18 @@
+commit 358942dda75b4b0a070111ec44a75fe19accee84
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jul 30 03:15:09 2019 -0400
+
+    add extra newline at the end
+    
+    so "host login:" by login in a virtual console is visually separated from this
+    text
+
+commit 7fa2c27232d35290385b8690ac6f9b3830ad195f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jul 19 10:10:15 2019 +0000
+
+    bumped changelog version
+
 commit fe391c0847a1b1bbf23c48ea6baafea357037a9f
 Merge: aea79dc 0fd78b6
 Author: Patrick Schleizer <adrelanos@riseup.net>
