@@ -1,3 +1,27 @@
+commit 4860efe969e2d556d69161e50baadeca6fe73cc1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 11 15:03:33 2019 +0000
+
+    Conflicts: kicksecure-base-files
+
+commit d1f68b1fc8ebb052890227d9cabd1f4dafd2dbf3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 11 14:17:56 2019 +0000
+
+    move to anon-base-files
+
+commit 48d363a62966092f30b325859b1a769dc104b361
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 11 14:14:18 2019 +0000
+
+    move to helper-scripts /usr/lib/helper-scripts/first-boot-skel
+
+commit dfcc2e526d573a674095007db3191dac09c416ed
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 1 12:10:58 2019 +0000
+
+    bumped changelog version
+
 commit 2f053e00faf7be7b122dee3479e425890b9dd1ad
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Aug 1 11:13:47 2019 +0000
