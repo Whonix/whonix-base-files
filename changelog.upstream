@@ -1,3 +1,15 @@
+commit 07d892bc46201cf0598951530f3f2c04f1ae8b12
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Aug 12 06:56:32 2019 +0000
+
+    Replaces: kicksecure-base-files rather than Conflicts:
+
+commit 293b4054b77ebac9705f23ba7020a4cba45b1b02
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 11 15:08:34 2019 +0000
+
+    bumped changelog version
+
 commit 4860efe969e2d556d69161e50baadeca6fe73cc1
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Aug 11 15:03:33 2019 +0000
