@@ -89,9 +89,9 @@
 #Acquire::http { Proxy "http://127.0.0.1:3142"; };
 ##
 ## Untested.
-#Acquire::https::proxy "https://127.0.0.1:3142/";
-##
-## Untested.
-#Acquire::ftp::proxy "ftp://127.0.0.1:3142/";
+#Acquire::http::Proxy "http://127.0.0.1:3142/";
+#Acquire::https::Proxy "http://127.0.0.1:3142/";
+#Acquire::ftp::Proxy "ftp://127.0.0.1:3142/";
+#Acquire::tor::Proxy "http://127.0.0.1:3142/";
 
 ## End of Whonix /etc/apt/apt.conf.d/90whonix
