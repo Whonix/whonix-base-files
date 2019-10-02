@@ -63,9 +63,9 @@ Whonix is based on Debian, VirtualBox and Tor.
 
 The following commands are available on Whonix-Gateway...${reset}
 
-${under}Anonymizing Relay Monitor
-(Vidalia alternative, Tor Controller as console application):${reset}
-arm
+${under}terminal status monitor for Tor
+(Vidalia / arm alternative, Tor Controller as console application):${reset}
+nyx
 
 ${under}Restart Network:${reset}
 sudo service networking restart
