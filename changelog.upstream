@@ -1,3 +1,15 @@
+commit 310ebfdf723671086f777497b5e4d37091fab338
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Oct 2 04:03:15 2019 -0400
+
+    arm -> nxy
+
+commit 05a4366d4247afe82a882ca8c817eb5aa72a6002
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 14 13:21:06 2019 +0000
+
+    bumped changelog version
+
 commit be6c50279d7fbd5989320991e2263384c0ea5aed
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Sep 14 01:12:16 2019 -0400
