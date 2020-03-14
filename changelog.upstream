@@ -1,3 +1,15 @@
+commit baf3ecf21e9c850a8308d3623de0420bb7221121
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Mar 14 07:43:39 2020 -0400
+
+    Provides: kicksecure-base-files
+
+commit 3b0ebd7d610d053ad31fe0ce6874d0c1d2b2266e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Mar 14 07:05:17 2020 -0400
+
+    bumped changelog version
+
 commit b942ee708d915595008cb0b2d7a66b91fe137922
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Mar 14 07:04:18 2020 -0400
