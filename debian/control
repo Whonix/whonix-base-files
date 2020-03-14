@@ -14,7 +14,7 @@ Standards-Version: 4.3.0
 Package: whonix-base-files
 Architecture: all
 Depends: less, sudo, ${misc:Depends}
-Provides: ${diverted-files}
+Provides: ${diverted-files}, kicksecure-base-files
 Conflicts: ${diverted-files}
 Replaces: kicksecure-base-files
 Description: Whonix base system miscellaneous files
