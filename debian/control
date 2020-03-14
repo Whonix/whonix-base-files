@@ -15,7 +15,8 @@ Package: whonix-base-files
 Architecture: all
 Depends: less, sudo, ${misc:Depends}
 Provides: ${diverted-files}
-Replaces: kicksecure-base-files, ${diverted-files}
+Conflicts: ${diverted-files}
+Replaces: kicksecure-base-files
 Description: Whonix base system miscellaneous files
  This package contains several important miscellaneous files, such as
  /etc/issue, /etc/motd, /etc/dpkg/origins/whonix,
