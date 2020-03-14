@@ -1,3 +1,15 @@
+commit b942ee708d915595008cb0b2d7a66b91fe137922
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Mar 14 07:04:18 2020 -0400
+
+    try fix kicksecure-base-files vs whonix-base-files package conflict
+
+commit 5d444d86f48de379ea1a47211373554e64455490
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 30 06:50:34 2020 -0500
+
+    bumped changelog version
+
 commit 4a60f35c6206e228f834d763f6e9342b37cc9ac5
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Jan 30 06:46:30 2020 -0500
