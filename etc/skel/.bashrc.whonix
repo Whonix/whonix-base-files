@@ -134,14 +134,8 @@ fi
 ## We run in a terminal emulator.
 
 ## Let's greet it with motd.
-if [ -d /usr/lib/qubes ]; then
-   if [ -f /etc/motd.qubes-whonix ]; then
-      echo "$(cat /etc/motd.qubes-whonix)"
-   fi
-else
-   if [ -f /etc/motd ]; then
-      echo "$(cat /etc/motd)"
-   fi
+if [ -f /etc/motd ]; then
+   echo "$(cat /etc/motd)"
 fi
 
 ## Output uwt settings.
