@@ -1,3 +1,39 @@
+commit b658e7c7c155e1db135cc3626c23abcb8808a5c5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 27 07:12:58 2020 -0400
+
+    empty etc/motd.whonix so it can be configured by snippets by other packages
+
+commit bdf42d27667ddb79027b1ede93fd1fd0abf83dd8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 27 06:53:45 2020 -0400
+
+    abolish greeting terminal emulator with motd for now
+
+commit 8fee64cb9050f188d7d0791db103ef7515de0228
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 27 06:53:28 2020 -0400
+
+    abolish etc/motd.qubes-whonix
+
+commit ee5e9e9e7f5ab01ddd83cb8b1ca732e755d82974
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 27 06:52:44 2020 -0400
+
+    abolish etc/motd.qubes-whonix
+
+commit ed1c0d798b7f830dfae5c0f42206b13f73123b6e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 27 04:36:05 2020 -0400
+
+    empty /etc/issue so /etc/issue.d can be used by other packages
+
+commit 18ad68038e308c6f011e65cc13a9bf0b3879b83a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Mar 14 07:44:34 2020 -0400
+
+    bumped changelog version
+
 commit baf3ecf21e9c850a8308d3623de0420bb7221121
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Mar 14 07:43:39 2020 -0400
