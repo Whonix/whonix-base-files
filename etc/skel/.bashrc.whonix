@@ -118,24 +118,8 @@ fi
 ## the bash maintainer.
 ## http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=675008
 
-if [ -z "$PS1" ]; then
-   true "If not running interactively, don't do anything."
-   return
+if test -x /usr/lib/helper-scripts/bashrc-terminal-emulator ; then
+   /usr/lib/helper-scripts/bashrc-terminal-emulator
 fi
-
-shopt -q login_shell
-var="$?"
-if [ "$var" = "0" ]; then
-   true "running in a login shell, don't do anything."
-   ## Login shells are greeted by /etc/motd.
-   return
-fi
-
-## We run in a terminal emulator.
-
-## Let's greet it with motd.
-#if [ -f /etc/motd ]; then
-#   echo "$(cat /etc/motd)"
-#fi
 
 ## End of Whonix /home/user/.bashrc
