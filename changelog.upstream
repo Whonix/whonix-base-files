@@ -1,3 +1,27 @@
+commit 4d5a2d15b20835f4f04379aec725c25248673f87
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 10:29:53 2020 +0000
+
+    move to helper scripts
+
+commit 09a5b09c6f36f9763d05f4980555c0ccfdc42475
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 10:25:42 2020 +0000
+
+    debugging
+
+commit b694dbc116383ae19fd60e9d5c29d1f69678fb97
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 10:20:45 2020 +0000
+
+    move to uwt
+
+commit 20a251a2149d1a894f5785829f4c8de3691ff6c5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 2 08:08:07 2020 -0400
+
+    bumped changelog version
+
 commit 8e0b0b48c29449502de40b7ef0d2df814f1c31cb
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 2 07:23:01 2020 -0400
