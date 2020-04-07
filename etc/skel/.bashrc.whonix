@@ -119,7 +119,7 @@ fi
 ## http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=675008
 
 if test -x /usr/lib/helper-scripts/bashrc-terminal-emulator ; then
-   /usr/lib/helper-scripts/bashrc-terminal-emulator
+   source /usr/lib/helper-scripts/bashrc-terminal-emulator
 fi
 
 ## End of Whonix /home/user/.bashrc
