@@ -138,10 +138,4 @@ fi
 #   echo "$(cat /etc/motd)"
 #fi
 
-## Output uwt settings.
-## https://phabricator.whonix.org/T73
-if test -x /usr/lib/uwt_settings_show ; then
-   /usr/lib/uwt_settings_show
-fi
-
 ## End of Whonix /home/user/.bashrc
