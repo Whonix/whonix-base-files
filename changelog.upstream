@@ -1,3 +1,33 @@
+commit d8e9fbac58b687cf163e2bac69779b2e5f95d9e2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Apr 8 10:30:44 2020 +0000
+
+    description
+
+commit 3482e540af20a3e58a343514e91090113d5f3468
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Apr 8 10:29:57 2020 +0000
+
+    readme
+
+commit 44a8ee70c6727d8d03073c2aee3fb2d1ff9f0779
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Apr 8 10:28:28 2020 +0000
+
+    Replaces: anon-base-files
+
+commit f281417348a84d795b4a3f2762b81579507ee476
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Apr 8 10:26:58 2020 +0000
+
+    description
+
+commit 3e35e5b93f3ef3c5e1408b4a9b26f23bf922c652
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Apr 8 09:48:11 2020 +0000
+
+    bumped changelog version
+
 commit b8a50b914d9745830e6ccd6a763c1ac47aeb4b93
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Apr 7 21:17:42 2020 +0000
