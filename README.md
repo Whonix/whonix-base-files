@@ -7,6 +7,10 @@ This package contains several important miscellaneous files, such as
 Sets the WHONIX environment variable to 1 as well.
 
 Creates version file /var/lib/anon-dist/build_version.
+
+Ships marker files:
+* /usr/share/whonix/marker
+* /usr/share/anon-dist/marker
 ## How to install `whonix-base-files` using apt-get ##
 
 1\. Download [Whonix's Signing Key]().
