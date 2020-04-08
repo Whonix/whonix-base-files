@@ -5,6 +5,8 @@ This package contains several important miscellaneous files, such as
 /etc/skel/.bashrc, /usr/bin/whonix, and others.
 
 Sets the WHONIX environment variable to 1 as well.
+
+Creates version file /var/lib/anon-dist/build_version.
 ## How to install `whonix-base-files` using apt-get ##
 
 1\. Download [Whonix's Signing Key]().
