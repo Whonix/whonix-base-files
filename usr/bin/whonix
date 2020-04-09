@@ -130,10 +130,7 @@ ${under}Important configuration folders:${reset}
 /etc/whonix_firewall.d/
 
 ${under}Important logs:${reset}
-tail -f /var/log/syslog
-tail -f -n 20 /var/log/sdwdate.log
-tail -f /var/log/controlportfilt.log
-tail -f /var/log/tor/log
+https://www.whonix.org/wiki/Troubleshooting#System_Logs
 
 ${under} Connection Wizard (Enable/Disable Tor)${reset}
 sudo whonixsetup
@@ -197,8 +194,7 @@ ${under}Important configuration folders:${reset}
 /etc/whonix_firewall.d/
 
 ${under}Important logs:${reset}
-tail -f /var/log/syslog
-tail -f -n 20 /var/log/sdwdate.log
+https://www.whonix.org/wiki/Troubleshooting#System_Logs
 
 ${under}Change keyboard layout:${reset}
 sudo dpkg-reconfigure keyboard-configuration
