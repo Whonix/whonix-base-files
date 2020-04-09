@@ -9,6 +9,9 @@ elif test -f /usr/share/anon-ws-base-files/workstation ; then
    name=Whonix-Workstation
 elif test -f /usr/share/whonix-libvirt/marker ; then
    name=Whonix-Host
+else
+   ## Fallback.
+   name=whonix-base-files
 fi
 
 echo "Welcome to $name ™!"
