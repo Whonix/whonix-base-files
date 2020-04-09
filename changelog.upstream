@@ -1,3 +1,29 @@
+commit 781f59eecee8dbc3a40878b452a5ec79b05bc304
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 9 10:04:27 2020 +0000
+
+    move to dist-base-files
+
+commit 845fbc8dcc3e1d8220c966b57d3293cf9590fa77
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 9 09:56:56 2020 +0000
+
+    fallback
+
+commit 710a1ae514bf21a0ae59c2e786b5c84c3293ff19
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 9 09:55:44 2020 +0000
+
+    add etc/update-motd.d/30_whonix
+    
+    https://phabricator.whonix.org/T975
+
+commit e646b2ecdf2f62f28192b77187a48c2f2b895b74
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Apr 8 12:52:23 2020 +0000
+
+    bumped changelog version
+
 commit b41e45c41288819b6bbe694942ee44716d8e8a4e
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Apr 8 12:30:16 2020 +0000
