@@ -19,6 +19,14 @@ case "$1" in
    configure)
       true "INFO: Configuring $DPKG_MAINTSCRIPT_PACKAGE..."
 
+      true 'INFO: Working around: "sudo: unable to resolve host host"'
+      if [ -f /etc/hostname ]; then
+         my_host_name="$(cat "/etc/hostname")" || true
+         if [ ! "$my_host_name" = "" ]; then
+            hostname "$my_host_name" || true
+         fi
+      fi
+
       ## 70_dpkg_origins {{
 
       ## || true to support re-running the script

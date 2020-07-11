@@ -4,3 +4,5 @@
 /etc/issue.whonix
 /etc/motd.whonix
 /etc/skel/.bashrc.whonix
+/etc/hosts.whonix
+/etc/hostname.whonix
