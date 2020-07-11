@@ -103,7 +103,7 @@ License: GPL-3+
  exception applies to any program that serves as a shell and that is
  based primarily on Bash as opposed to other GNU software.
 
-Files: etc/hosts.anondist
+Files: etc/hosts.whonix
 Comments: Downloaded from:
           http://sources.debian.net/src/live-config/3.0.23-1/scripts/config/0020-hostname?hl=62#L62
           http://www.webcitation.org/6PnWZfyea
