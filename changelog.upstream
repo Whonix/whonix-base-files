@@ -1,3 +1,21 @@
+commit 3bcd135ef09ab3e77c52e0a899625e76f0adcc3c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 11 14:05:12 2020 -0400
+
+    readme
+
+commit 52b7f58ec715a3cefe41d3eb191f8383d62efd5f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 11 13:29:52 2020 -0400
+
+    import /etc/hosts and /etc/hostname from dist-base-files
+
+commit 5fbc3d4fa739e86d963dca82dd8a33385fe4f17e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 16 17:02:14 2020 -0400
+
+    bumped changelog version
+
 commit 3a34900803b9fc0351b12362f3c7c06737e4e330
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 16 17:02:13 2020 -0400
