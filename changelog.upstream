@@ -1,3 +1,17 @@
+commit 54878bb7536b8216c739cad050b3977865dde455
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jul 16 16:24:15 2020 -0400
+
+    fix /etc/hosts /etc/hostname config-package-dev dpkg-divert migration bug
+    
+    https://github.com/Whonix/updates-status/issues/36
+
+commit eec17d78bfe50e86f49e5a704887665814ffe81d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 11 14:12:11 2020 -0400
+
+    bumped changelog version
+
 commit b3def6ffa74a8a9ead907ab3a13d395e76184289
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Jul 11 14:09:20 2020 -0400
