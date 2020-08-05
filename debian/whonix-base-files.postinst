@@ -65,6 +65,16 @@ case "$1" in
       ;;
 esac
 
+if [ "$CI" = "true" ]; then
+   ## config-package-dev displace of /etc/hosts broken on Travis CI.
+   ## Therefore disabling errexit and ERR trap.
+   ## https://api.travis-ci.org/v3/job/715156029/log.txt
+   ## Adding 'diversion of /etc/hosts to /etc/hosts.whonix-orig by whonix-base-files'
+   ## dpkg-divert: error: unable to remove copied source file '/etc/hosts': Device or resource busy
+   set +e
+   trap "" ERR
+fi
+
 true "INFO: debhelper beginning here."
 
 #DEBHELPER#
