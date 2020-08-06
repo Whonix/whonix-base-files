@@ -65,8 +65,7 @@ case "$1" in
       ;;
 esac
 
-## Debugging.
-echo "CI: $CI"
+true "CI: $CI"
 
 if [ "$CI" = "true" ]; then
    ## config-package-dev displace of /etc/hosts broken on Travis CI.
