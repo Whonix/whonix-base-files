@@ -19,7 +19,7 @@ Ships marker files:
 * /usr/share/anon-dist/marker
 ## How to install `whonix-base-files` using apt-get ##
 
-1\. Download [Whonix's Signing Key]().
+1\. Download Whonix's Signing Key.
 
 ```
 wget https://www.whonix.org/patrick.asc
