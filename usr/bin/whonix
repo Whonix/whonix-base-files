@@ -81,7 +81,7 @@ sudo apt-get update
 sudo apt-get dist-upgrade
 
 ${under}Check Network Time Synchronization and Tor connection:${reset}
-whonixcheck
+systemcheck
 
 ${under}Swich to clearnet user. clearnet user has direct internet access:${reset}
 (see DNS notes below)
@@ -170,7 +170,7 @@ sudo apt-get update
 sudo apt-get dist-upgrade
 
 ${under}Check Network Time Synchronization, Tor connection, Operating system updates, Whonix Version, Whonix News:${reset}
-whonixcheck
+systemcheck
 
 ${under}Reboot:${reset}
 sudo reboot
