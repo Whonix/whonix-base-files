@@ -1,0 +1,6 @@
+## legacy compatibility symlinks
+whonix-base-files: binary-without-manpage usr/bin/repository-dist
+whonix-base-files: binary-without-manpage usr/bin/repository-dist-wizard
+whonix-base-files: binary-without-manpage usr/sbin/setup-dist
+whonix-base-files: binary-without-manpage usr/bin/setup-wizard-dist
+whonix-base-files: binary-without-manpage usr/bin/systemcheck
