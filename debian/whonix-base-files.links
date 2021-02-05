@@ -1,0 +1,8 @@
+## Copyright (C) 2021 - 2021 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+/usr/bin/whonixsetup /usr/sbin/setup-dist
+/usr/bin/whonix-setup-wizard /usr/bin/setup-wizard-dist
+/usr/bin/whonix_repository /usr/bin/repository-dist
+/usr/bin/whonix-repository-wizard /usr/bin/repository-dist-wizard
+/usr/bin/whonixcheck /usr/bin/systemcheck
