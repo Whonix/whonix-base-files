@@ -1,3 +1,27 @@
+commit 7ae5732566c2f3a16c747dddc32dd88cbda7cef8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 5 02:18:01 2021 -0500
+
+    overwrite lintian warning
+
+commit e5169790ea40ec3e243cb0277fe11de8608632eb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 5 01:42:04 2021 -0500
+
+    add legacy compatibility symlinks
+    
+    /usr/bin/whonixsetup /usr/sbin/setup-dist
+    /usr/bin/whonix-setup-wizard /usr/bin/setup-wizard-dist
+    /usr/bin/whonix_repository /usr/bin/repository-dist
+    /usr/bin/whonix-repository-wizard /usr/bin/repository-dist-wizard
+    /usr/bin/whonixcheck /usr/bin/systemcheck
+
+commit f089bdd9e5e414b0ecf845f4fb95aa1ccd750d10
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jan 26 09:53:56 2021 -0500
+
+    bumped changelog version
+
 commit 251afb3c6a4907bb4db71a20306076ac4e455129
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Jan 26 07:07:48 2021 -0500
