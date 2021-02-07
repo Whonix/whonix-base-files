@@ -1,3 +1,23 @@
+commit c79691d76982bfc2c204287b07bd498f91b26ced
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Feb 7 03:31:45 2021 -0500
+
+    readme
+
+commit 43be8bd6e8edbad16711eb22b17ba628eecadc53
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Feb 7 03:31:18 2021 -0500
+
+    Replaces: whonixsetup, whonix-setup-wizard, whonixcheck, whonix-repository
+    
+    for legacy comparability symlinks
+
+commit fbde90d975940f2f0788c95e49ad40d3c31298b3
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Feb 6 04:08:48 2021 -0500
+
+    bumped changelog version
+
 commit d63b3f50fe485cbc3b694f05a08a8fa59974e031
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Feb 6 04:08:28 2021 -0500
