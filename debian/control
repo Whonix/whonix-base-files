@@ -17,7 +17,8 @@ Depends: less, sudo, ${misc:Depends}
 Provides: ${diverted-files}, kicksecure-base-files
 Conflicts: ${diverted-files}
 ## anon-base-files: /usr/share/anon-dist/marker
-Replaces: kicksecure-base-files, anon-base-files
+Replaces: kicksecure-base-files, anon-base-files,
+ whonixsetup, whonix-setup-wizard, whonixcheck, whonix-repository,
 Description: Whonix base system miscellaneous files
  This package contains several important miscellaneous files, such as
  /etc/issue, /etc/motd, /etc/dpkg/origins/whonix,
