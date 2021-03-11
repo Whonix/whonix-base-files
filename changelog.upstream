@@ -1,3 +1,15 @@
+commit 6a7497d4d6b9ba598d7d89557e7fa1d294f8d5ed
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Mar 11 14:54:50 2021 -0500
+
+    update-grub
+
+commit d2bf3bbc3d7a3442293da088e9c1cf49acb3fbc4
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Feb 7 03:31:46 2021 -0500
+
+    bumped changelog version
+
 commit c79691d76982bfc2c204287b07bd498f91b26ced
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Feb 7 03:31:45 2021 -0500
