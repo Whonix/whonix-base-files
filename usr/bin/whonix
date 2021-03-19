@@ -126,7 +126,6 @@ ${under}Important configuration files:${reset}
 nano /usr/local/etc/torrc.d/50_user.conf
 
 ${under}Important configuration folders:${reset}
-/etc/whonix.d/
 /etc/whonix_firewall.d/
 
 ${under}Important logs:${reset}
@@ -190,7 +189,6 @@ ${under}check if DNS resolution is functional:${reset}
 nslookup check.torproject.org
 
 ${under}Important configuration folders:${reset}
-/etc/whonix.d/
 /etc/whonix_firewall.d/
 
 ${under}Important logs:${reset}
