@@ -14,7 +14,8 @@ Standards-Version: 4.3.0
 Package: whonix-base-files
 Architecture: all
 Depends: less, sudo, ${misc:Depends}
-Provides: ${diverted-files}, kicksecure-base-files
+Provides: kicksecure-base-files,
+ ${diverted-files}
 Conflicts: ${diverted-files}
 ## anon-base-files: /usr/share/anon-dist/marker
 Replaces: kicksecure-base-files, anon-base-files,
