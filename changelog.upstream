@@ -1,3 +1,39 @@
+commit b6ef1dcb133f5388efa7d4e4b79718521a9e2cbb
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Mar 23 07:30:17 2021 -0400
+
+    refactoring
+
+commit ad4050662623252532c762995d0a7fbbdea86096
+Merge: aa7cd6a a847ace
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Mar 23 06:15:32 2021 -0400
+
+    Merge remote-tracking branch 'github-whonix/master'
+
+commit a847aceabb43589b4fd5ec29b9c98fa8071626ac
+Merge: aa7cd6a bf19204
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Mar 23 05:59:55 2021 -0400
+
+    Merge pull request #2 from martingul/patch-1
+    
+    Fix typos
+
+commit bf192045dd1e2ced8268a23e1b8c52ce78ead0c1
+Author: Martin Gul <martingul@outlook.com>
+Date:   Tue Mar 23 03:52:49 2021 +0100
+
+    Fix typos
+    
+    Fixed some typos and inconsistencies that I have noticed after running `/usr/bin/whonix`. Please let me know if these are not appropriate.
+
+commit aa7cd6a4566ac04fe45966bec3bdf93f4f6de0eb
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Mar 19 10:38:10 2021 -0400
+
+    bumped changelog version
+
 commit 120f44f311c2398084a0fee51c76e74db0f597b1
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Mar 19 10:24:03 2021 -0400
