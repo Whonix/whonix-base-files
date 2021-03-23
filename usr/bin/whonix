@@ -63,7 +63,7 @@ Whonix is based on Debian, VirtualBox and Tor.
 
 The following commands are available on Whonix-Gateway...${reset}
 
-${under}terminal status monitor for Tor
+${under}Terminal status monitor for Tor
 (Vidalia / arm alternative, Tor Controller as console application):${reset}
 nyx
 
@@ -83,7 +83,7 @@ sudo apt-get dist-upgrade
 ${under}Check Network Time Synchronization and Tor connection:${reset}
 systemcheck
 
-${under}Swich to clearnet user. clearnet user has direct internet access:${reset}
+${under}Switch to clearnet user. clearnet user has direct internet access:${reset}
 (see DNS notes below)
 sudo su clearnet
 
@@ -100,7 +100,7 @@ ${under}Circumvent using uwt wrapper (Experts / Debugging only!):${reset}
 /usr/bin/gpg.anondist-orig
 /usr/bin/ssh.anondist-orig
 
-${under}check if DNS resolution is functional:${reset}
+${under}Check if DNS resolution is functional:${reset}
 - Experts only!
 - This is only a summary.
 - You normally do not need to manually resolve DNS on Whonix-Gateway.
@@ -131,7 +131,7 @@ ${under}Important configuration folders:${reset}
 ${under}Important logs:${reset}
 https://www.whonix.org/wiki/Troubleshooting#System_Logs
 
-${under} Connection Wizard (Enable/Disable Tor)${reset}
+${under}Connection Wizard (Enable/Disable Tor)${reset}
 sudo whonixsetup
 
 ${under}Change keyboard layout:${reset}
@@ -185,7 +185,7 @@ ${under}Circumvent using uwt wrapper (Experts / Debugging only!):${reset}
 /usr/bin/git.anondist-orig
 /usr/bin/ssh.anondist-orig
 
-${under}check if DNS resolution is functional:${reset}
+${under}Check if DNS resolution is functional:${reset}
 nslookup check.torproject.org
 
 ${under}Important configuration folders:${reset}
@@ -201,7 +201,7 @@ sudo dpkg-reconfigure console-data
 ${under}Try to produce a leak (see Whonix documentation):${reset}
 leaktest
 
-${under}Reset xchat idenity:${reset}
+${under}Reset xchat identity:${reset}
 xchat-reset
 
 ${under}Tor Browser Launcher:${reset}
