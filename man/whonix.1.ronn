@@ -1,10 +1,10 @@
 whonix(1) -- Whonix Help File
 =============================================
 
-<span class="comment">
+<!--
 # Copyright (C) 2012 - 2021 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
 # See the file COPYING for copying conditions.
-</span>
+-->
 
 ## SYNOPSIS
 
