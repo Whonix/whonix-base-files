@@ -1,3 +1,57 @@
+commit 69c6312a8ec8976fbfb61b5336e6c595512d9e5d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Aug 4 07:56:52 2021 -0400
+
+    renamed:    usr/lib/whonix/whonix.sh -> usr/libexec/whonix-base-files/whonix.sh
+
+commit 55d7fbd3ed6785666b158e8b076ec542fb0fa484
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Aug 4 07:56:23 2021 -0400
+
+    lintian FHS
+
+commit cdc9ed3075759ecf3c0da4fa56b6a371803d23a0
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 3 12:48:59 2021 -0400
+
+    move /usr/lib/helper-scripts and /usr/lib/curl-scripts to /usr/libexec/helper-scripts as per lintian FHS
+
+commit 7f00fbe6749c451ead1a08ee02a0ab70146f49cc
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 3 11:51:32 2021 -0400
+
+    update lintian tag name
+
+commit eb07dce50eab0ec96043310129f2ba15710b5af9
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 3 11:47:37 2021 -0400
+
+    re-generate man pages (generated using "genmkfile manpages")
+
+commit e84b17781884479638efecc8a8a04a45292eceda
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 3 11:45:14 2021 -0400
+
+    man page
+
+commit 470a4e7cbe142a3638c3920850085b449fc2642b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 3 05:48:29 2021 -0400
+
+    bullseye
+
+commit 83c67a1b6fbb895f0bc4bd562b9924b30cbe26b6
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Aug 1 16:24:50 2021 -0400
+
+    readme
+
+commit 36d35f161eeccaf6574f8426d69236da36721408
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Mar 23 07:50:52 2021 -0400
+
+    bumped changelog version
+
 commit b6ef1dcb133f5388efa7d4e4b79718521a9e2cbb
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Mar 23 07:30:17 2021 -0400
