@@ -1,3 +1,15 @@
+commit 4ebfe6691120f45aed43b9b28c88252ab0184955
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 17 12:09:55 2021 -0400
+
+    `/etc/whonix_version`: `16`
+
+commit f7eb75335a1b1a65951b448ec2454fac7b455a30
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Aug 5 17:12:54 2021 -0400
+
+    bumped changelog version
+
 commit 69c6312a8ec8976fbfb61b5336e6c595512d9e5d
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Aug 4 07:56:52 2021 -0400
