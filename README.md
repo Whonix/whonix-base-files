@@ -17,6 +17,7 @@ Sets the WHONIX environment variable to 1 as well.
 Ships marker files:
 * /usr/share/whonix/marker
 * /usr/share/anon-dist/marker
+
 ## How to install `whonix-base-files` using apt-get ##
 
 1\. Download the APT Signing Key.
@@ -25,7 +26,7 @@ Ships marker files:
 wget https://www.whonix.org/derivative.asc
 ```
 
-Users can [check Whonix Signing Key](https://www.whonix.org/wiki/Whonix_Signing_Key) for better security.
+Users can [check Whonix Signing Key](https://www.whonix.org/wiki/Signing_Key) for better security.
 
 2\. Add the APT Signing Key..
 
@@ -59,7 +60,9 @@ Can be build using standard Debian package build tools such as:
 dpkg-buildpackage -b
 ```
 
-See instructions. (Replace `generic-package` with the actual name of this package `whonix-base-files`.)
+See instructions.
+
+NOTE: Replace `generic-package` with the actual name of this package `whonix-base-files`.
 
 * **A)** [easy](https://www.whonix.org/wiki/Dev/Build_Documentation/generic-package/easy), _OR_
 * **B)** [including verifying software signatures](https://www.whonix.org/wiki/Dev/Build_Documentation/generic-package)
