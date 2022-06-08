@@ -10,8 +10,8 @@ export WHONIX=1
 ## Hide the Tor Browser Bundle (TBB) logo in tor-launcher. This is useful to
 ## avoid users confusing TBB and Whonix. Also useful when running tor-launcher
 ## in standalone mode, because then it's not TBB that is starting. Lastly also
-## useful avoid ​trademark issues when redistributing original, unmodified TBB
-## in (linux) distributions.
+## useful to avoid trademark issues when redistributing original, unmodified
+## TBB in (linux) distributions.
 ## https://trac.torproject.org/projects/tor/ticket/14122
 ## https://www.torproject.org/docs/trademark-faq.html.en
 ## https://www.whonix.org/wiki/Dev/TPO_Trademark
