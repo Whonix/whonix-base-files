@@ -48,11 +48,16 @@ case "$1" in
    configure)
       true "INFO: Configuring $DPKG_MAINTSCRIPT_PACKAGE..."
 
-      true 'INFO: Working around: "sudo: unable to resolve host host"'
-      if [ -f /etc/hostname ]; then
-         my_host_name="$(cat "/etc/hostname")" || true
-         if [ ! "$my_host_name" = "" ]; then
-            hostname "$my_host_name" || true
+      if ischroot --default-false ; then
+         ## Avoid running "hostname host" inside chroot to avoid breaking the build host.
+         true 'INFO: chroot detected. Skip running "hostname host".'
+      else
+         true 'INFO: Working around: "sudo: unable to resolve host host"'
+         if [ -f /etc/hostname ]; then
+            my_host_name="$(cat "/etc/hostname")" || true
+            if [ ! "$my_host_name" = "" ]; then
+               hostname "$my_host_name" || true
+            fi
          fi
       fi
 
