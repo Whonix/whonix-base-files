@@ -1,3 +1,15 @@
+commit e4f7489ed7381073c8e3d889f726501b51f5b67b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue May 30 05:55:38 2023 +0000
+
+    build fix, do not run `hostname host` inside chroot
+
+commit 6f342babbe40e8b5e9ea0d6009c2d9debc3461c8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 8 11:12:55 2022 -0400
+
+    bumped changelog version
+
 commit 3d7c4c790de50a30cb2b7fbccdbbd64958cdb35d
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Jun 8 09:27:52 2022 -0400
