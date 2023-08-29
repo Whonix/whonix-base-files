@@ -6,3 +6,5 @@
 /usr/bin/repository-dist /usr/bin/whonix_repository
 /usr/bin/repository-dist-wizard /usr/bin/whonix-repository-wizard
 /usr/bin/systemcheck /usr/bin/whonixcheck
+
+/etc/profile.d/20_whonix.sh /etc/zprofile.d/20_whonix.zsh
