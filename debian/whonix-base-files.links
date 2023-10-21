@@ -8,4 +8,4 @@
 /usr/bin/systemcheck /usr/bin/whonixcheck
 
 /etc/profile.d/20_whonix.sh /etc/zprofile.d/20_whonix.zsh
-/etc/profile.d/20_whonix.sh /etc/X11/Xsession.d/20_whonix.sh
+/etc/profile.d/20_whonix.sh /etc/X11/Xsession.d/20_whonix
