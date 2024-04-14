@@ -1,3 +1,15 @@
+commit a4c15481cbb3c6dc1cdc88e8e7ec856b72498e82
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Apr 13 07:52:54 2024 -0400
+
+    symlink `/usr/share/distro-info/whonix.csv` to `/usr/share/distro-info/kicksecure.csv`
+
+commit e032c7322f8bbc29d27d9082f55e09aa99f7c6e6
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Nov 11 20:31:24 2023 +0000
+
+    bumped changelog version
+
 commit 1abcd0bd30fc30562c768bfd5145b9fa4b6fd871
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Nov 11 15:07:30 2023 -0500
