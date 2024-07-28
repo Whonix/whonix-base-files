@@ -140,7 +140,7 @@ sudo dpkg-reconfigure console-data
 
 ${under}Default username and password for Whonix-Gateway and Whonix-Workstation:${reset}
 Default username: user
-Default password: changeme
+Default password: No password required. (Passwordless login.)
 
 ${under}For slower output, run:${reset}
 whonix | more
@@ -212,7 +212,7 @@ update-torbrowser
 
 ${under}Default username and password for Whonix-Gateway and Whonix-Workstation:${reset}
 Default username: user
-Default password: changeme
+Default password: No password required. (Passwordless login.)
 
 ${under}For slower output, run:${reset}
 whonix | more
