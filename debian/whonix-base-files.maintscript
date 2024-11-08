@@ -2,3 +2,4 @@
 ## See the file COPYING for copying conditions.
 
 rm_conffile /etc/X11/Xsession.d/20whonix
+rm_conffile /etc/default/grub.d/30_whonix.cfg
