@@ -217,6 +217,11 @@ Default password: No password required. (Passwordless login.)
 ${under}For slower output, run:${reset}
 whonix | more
 
+${under}user-sysmaint-split${reset}
+Whonix-Workstation uses user-sysmaint-split by default. You will not be able
+to run commands with sudo while booted into 'PERSISTENT mode USER' or 'LIVE
+mode USER'. To run commands as root, reboot into 'PERSISTENT mode SYSMAINT'.
+
 ${bold}End of Whonix help.${reset}
 "
 
