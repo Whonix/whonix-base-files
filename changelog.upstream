@@ -1,3 +1,22 @@
+commit 523089ae58cd436712e330f535993355f1376281
+Merge: 8cf4934 5e8772b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Feb 6 11:10:12 2025 -0500
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/user-sysmaint-split'
+
+commit 5e8772ba5f84877019512a614989ecc317a5dd60
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Mon Feb 3 20:58:32 2025 -0600
+
+    Add Whonix-Workstation documentation on user-sysmaint-split
+
+commit 8cf4934d2ff8c18836cea6404063facd1b3858cc
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Dec 31 19:28:14 2024 +0000
+
+    bumped changelog version
+
 commit 2fcb1b06deaff0255c47eb9fbfc450d474c8ae04
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Dec 31 13:26:26 2024 -0500
