@@ -219,8 +219,9 @@ whonix | more
 
 ${under}user-sysmaint-split${reset}
 Whonix-Workstation uses user-sysmaint-split by default. You will not be able
-to run commands with sudo while booted into 'PERSISTENT mode USER' or 'LIVE
-mode USER'. To run commands as root, reboot into 'PERSISTENT mode SYSMAINT'.
+to run commands with sudo while booted into 'PERSISTENT Mode - USER Session'
+or 'LIVE Mode - USER Session'. To run commands as root, reboot into
+'PERSISTENT Mode - SYSMAINT Session'.
 
 ${bold}End of Whonix help.${reset}
 "
