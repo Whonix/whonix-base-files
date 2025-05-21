@@ -4,5 +4,5 @@
 ## See the file COPYING for copying conditions.
 
 if [ -x /usr/libexec/whonix-base-files/whonix.sh ]; then
-   . /usr/libexec/whonix-base-files/whonix.sh
+   . /usr/libexec/whonix-base-files/whonix.sh >/dev/null 2>/dev/null
 fi
