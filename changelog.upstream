@@ -1,3 +1,22 @@
+commit 97e48e4b1a9abf59a6c47412a6dc1ca1ab5af6a2
+Merge: 1f6930f 7c889e0
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jun 13 15:10:43 2025 -0400
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/approx'
+
+commit 7c889e0b561a8b7dbfe4f82600654d4077b600a5
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Thu Jun 12 01:10:39 2025 -0500
+
+    wip: update comments for approx package caching proxy
+
+commit 1f6930fec9ac1e6cba6017fe4525cfa3bcb2cc17
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed May 21 14:37:15 2025 +0000
+
+    bumped changelog version
+
 commit 572d748003256f15c3d04b5a7b7781fc105c8d0f
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed May 21 09:03:03 2025 -0400
