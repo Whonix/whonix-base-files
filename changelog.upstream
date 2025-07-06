@@ -1,3 +1,22 @@
+commit d9da999edca805effdb8b6e6c835f377776e8421
+Merge: 8210d3b 1212a1e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 6 11:35:33 2025 -0400
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/qubes-protected-files'
+
+commit 1212a1e2ff4d758c73890cee48932acf7a1c3f37
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Fri Jul 4 15:07:36 2025 -0500
+
+    Move protected files directives for /etc/hostname and /etc/hosts from qubes-whonix to whonix-base-files
+
+commit 8210d3b10d2514432d0bcf6e0d0d5fe10ff68825
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jun 14 11:52:37 2025 +0000
+
+    bumped changelog version
+
 commit 97e48e4b1a9abf59a6c47412a6dc1ca1ab5af6a2
 Merge: 1f6930f 7c889e0
 Author: Patrick Schleizer <adrelanos@whonix.org>
