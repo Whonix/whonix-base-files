@@ -62,14 +62,10 @@ case "$1" in
       fi
 
       ## 70_dpkg_origins {{
-
       ## || true to support re-running the script
-
       ## Get rid of old symlink.
-      unlink /etc/dpkg/origins/default || true
-
-      ln -s /etc/dpkg/origins/whonix /etc/dpkg/origins/default || true
-
+      #unlink /etc/dpkg/origins/default || true
+      #ln -s /etc/dpkg/origins/whonix /etc/dpkg/origins/default || true
       ## 70_dpkg_origins }}
 
       legacy || true
