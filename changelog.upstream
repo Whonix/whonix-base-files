@@ -1,3 +1,21 @@
+commit 35de8ade58fcae6ce548c43ff66c48d594be67e5
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Sep 12 08:07:35 2025 -0400
+
+    description
+
+commit 4399ca7ae9c7c6c9013681c62f2b2a29af841a86
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Sep 12 08:02:58 2025 -0400
+
+    no longer modify bashrc to be on par with zsh
+
+commit 74494ac718c93d9aa6110be892acaa3f980d4416
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Sep 2 15:38:03 2025 +0000
+
+    bumped changelog version
+
 commit 4cadecd042aded73409f45a2e2c82e13b434df6b
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Aug 26 09:45:30 2025 +0000
