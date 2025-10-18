@@ -1,3 +1,22 @@
+commit 8c12cabfc6d816fa1bf5d378e09054ce73af12f7
+Merge: 07e9ede ec305a0
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Oct 18 04:51:23 2025 -0400
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/trixie'
+
+commit ec305a021e4301e2c8e47c9c98c10f50a6691be8
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Fri Oct 17 17:25:16 2025 -0500
+
+    Adjust Whonix CLI documentation to reflect that Whonix-Gateway uses user-sysmaint-split too now
+
+commit 07e9ede4810e0ca31e97a8d439f072cd04ce7609
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Sep 28 21:53:29 2025 +0000
+
+    bumped changelog version
+
 commit 494a68940c3a37e676d775fb6b825cdbfd92fa7e
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Sep 28 17:52:04 2025 -0400
