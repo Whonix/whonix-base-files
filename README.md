@@ -2,7 +2,7 @@
 
 This package contains several important miscellaneous files, such as
 /etc/issue, /etc/motd, /etc/dpkg/origins/whonix,
-/etc/skel/.bashrc, /usr/bin/whonix, and others.
+/usr/bin/whonix, and others.
 
 Anonymized operating system user name `user`, `/etc/hostname`, `/etc/hosts`,
 `/etc/machine-id`, `/var/lib/dbus/machine-id`, which should be shared among
