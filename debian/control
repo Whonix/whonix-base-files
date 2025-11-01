@@ -14,7 +14,7 @@ Rules-Requires-Root: no
 
 Package: whonix-base-files
 Architecture: all
-Depends: less, sudo, ${misc:Depends}
+Depends: less, ${misc:Depends}
 Provides: kicksecure-base-files,
  ${diverted-files}
 Conflicts: ${diverted-files}
