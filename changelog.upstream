@@ -1,3 +1,15 @@
+commit 34c562b4dbb23a9c259ee732a5ed597018d75215
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 5 06:05:29 2026 -0500
+
+    lintian
+
+commit f03351905e9690108a642c7b981bdefaa2032948
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 5 10:34:04 2026 +0000
+
+    bumped changelog version
+
 commit c8084b7e81ce274c357d6614c07670fa7ebb4a0f
 Merge: 0a97a7b e41cf0b
 Author: Patrick Schleizer <adrelanos@whonix.org>
