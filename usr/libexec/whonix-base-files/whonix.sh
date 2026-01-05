@@ -12,7 +12,7 @@ export WHONIX=1
 ## in standalone mode, because then it's not TBB that is starting. Lastly also
 ## useful to avoid trademark issues when redistributing original, unmodified
 ## TBB in (linux) distributions.
-## https://trac.torproject.org/projects/tor/ticket/14122
-## https://www.torproject.org/docs/trademark-faq.html.en
+## https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/14122
+## https://www.torproject.org/about/trademark/
 ## https://www.whonix.org/wiki/Dev/TPO_Trademark
 export TOR_HIDE_BROWSER_LOGO=1
