@@ -30,9 +30,9 @@ Description: Whonix base system miscellaneous files
  `/etc/machine-id`, `/var/lib/dbus/machine-id`, which should be shared among
  all anonymity distributions. See also:
  .
-  * https://mailman.boum.org/pipermail/tails-dev/2013-January/002457.html
-  * https://labs.riseup.net/code/issues/5655
-  * http://lists.autistici.org/message/20140627.215105.24023267.en.html
+  * https://web.archive.org/web/20130701222115/https://mailman.boum.org/pipermail/tails-dev/2013-January/002457.html
+  * https://web.archive.org/web/20200810153110mp_/https://public-redmine-archive.tails.boum.org/code/issues/5655/
+  * https://lists.autistici.org/message/20140627.215105.24023267.en.html
  .
  Sets the WHONIX environment variable to 1 as well.
  .
