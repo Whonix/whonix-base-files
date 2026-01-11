@@ -7,10 +7,7 @@ This package contains several important miscellaneous files, such as
 Anonymized operating system user name `user`, `/etc/hostname`, `/etc/hosts`,
 `/etc/machine-id`, `/var/lib/dbus/machine-id`, which should be shared among
 all anonymity distributions. See also:
-
-* https://mailman.boum.org/pipermail/tails-dev/2013-January/002457.html
-* https://labs.riseup.net/code/issues/5655
-* http://lists.autistici.org/message/20140627.215105.24023267.en.html
+https://www.whonix.org/wiki/Hostnames#Anonymity_Distributions
 
 Sets the WHONIX environment variable to 1 as well.
 
