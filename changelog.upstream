@@ -1,3 +1,15 @@
+commit 2ab0bb54fa4f36b00cb216ba7e3bd8e3166937ce
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Apr 23 06:36:49 2026 -0400
+
+    refactoring
+
+commit 7cd018dcfce3d9059181a36214b8c4533cb714b7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Apr 5 10:30:48 2026 +0000
+
+    bumped changelog version
+
 commit 63c1862e20ae55c8551cde710466ac966ab956c8
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Apr 5 05:13:53 2026 -0400
@@ -65,7 +77,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jan 5 03:33:08 2026 -0500
 
     Merge pull request #3 from Nurmagoz/patch-2
-    
+
     Update control links
 
 commit 7e3b377fed0c2512cf3c84e52f4ec69a2af0a4cf
@@ -74,7 +86,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jan 5 03:18:04 2026 -0500
 
     Merge pull request #2 from Nurmagoz/patch-1
-    
+
     Updated URLs
 
 commit 058705fd829a33cfe59dbf9ac60ce0cf91393033
@@ -234,7 +246,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Aug 3 05:57:20 2025 -0400
 
     no longer divert /etc/dpkg/origins/default
-    
+
     because it breaks `reverse-depends`
 
 commit bf1c3a15f6d582c5b8d396fae7461e4fb3c257ff
@@ -681,7 +693,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Mar 23 05:59:55 2021 -0400
 
     Merge pull request #2 from martingul/patch-1
-    
+
     Fix typos
 
 commit bf192045dd1e2ced8268a23e1b8c52ce78ead0c1
@@ -689,7 +701,7 @@ Author: Martin Gul <martingul@outlook.com>
 Date:   Tue Mar 23 03:52:49 2021 +0100
 
     Fix typos
-    
+
     Fixed some typos and inconsistencies that I have noticed after running `/usr/bin/whonix`. Please let me know if these are not appropriate.
 
 commit aa7cd6a4566ac04fe45966bec3bdf93f4f6de0eb
@@ -757,7 +769,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Feb 7 03:31:18 2021 -0500
 
     Replaces: whonixsetup, whonix-setup-wizard, whonixcheck, whonix-repository
-    
+
     for legacy comparability symlinks
 
 commit fbde90d975940f2f0788c95e49ad40d3c31298b3
@@ -801,7 +813,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 5 01:42:04 2021 -0500
 
     add legacy compatibility symlinks
-    
+
     /usr/bin/whonixsetup /usr/sbin/setup-dist
     /usr/bin/whonix-setup-wizard /usr/bin/setup-wizard-dist
     /usr/bin/whonix_repository /usr/bin/repository-dist
@@ -891,7 +903,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Jul 16 16:24:15 2020 -0400
 
     fix /etc/hosts /etc/hostname config-package-dev dpkg-divert migration bug
-    
+
     https://github.com/Whonix/updates-status/issues/36
 
 commit eec17d78bfe50e86f49e5a704887665814ffe81d
@@ -995,7 +1007,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 9 09:55:44 2020 +0000
 
     add etc/update-motd.d/30_whonix
-    
+
     https://phabricator.whonix.org/T975
 
 commit e646b2ecdf2f62f28192b77187a48c2f2b895b74
@@ -1346,7 +1358,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Jul 30 03:15:09 2019 -0400
 
     add extra newline at the end
-    
+
     so "host login:" by login in a virtual console is visually separated from this
     text
 
@@ -1369,7 +1381,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Jul 19 09:23:15 2019 +0000
 
     Merge pull request #1 from 0brand/master
-    
+
     Update login instructions
 
 commit 54a2d8c3ad6239cfbf192609026118704980b5ce
@@ -1389,7 +1401,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Jul 17 21:35:18 2019 +0000
 
     update instructions for default locked root account
-    
+
     https://www.whonix.org/wiki/Root
 
 commit f8f15934c17c07b653bb4c35bb279a88362142c8
@@ -1469,7 +1481,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 11 17:59:39 2019 -0400
 
     grub branding
-    
+
     GRUB_DISTRIBUTOR="Whonix"
 
 commit 139968f68d69523c94caf25129d2c72fa73c44f0
@@ -1585,16 +1597,16 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Mar 8 12:42:16 2019 +0000
 
     Implement advice by GPLv3.
-    
+
     Quote GPLv3.
-    
+
         If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:
-    
+
             <program>  Copyright (C) <year>  <name of author>
             This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
             This is free software, and you are welcome to redistribute it
             under certain conditions; type `show c' for details.
-    
+
         The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.
 
 commit 264cf5ad95d99f3c8221292083bd18e849509a44
@@ -1626,18 +1638,18 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Mar 1 14:32:43 2019 +0000
 
     add improved legal protections clauses
-    
+
     The license for software created by Whonix is the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version with additional terms applicable per GNU GPL version 3 section 7.
-    
+
     The additional terms are based on the Doom 3 license which is Debian refers to as `GPL-3+-with-id-software-additional-terms`, which is Debian DFSG [1] (The Debian Free Software Guidelines) approved and which is therefore suitable for Debian `main`. Whonix made applied minimal changes to it:
-    
+
     * Rewrite `The Doom 3 BFG Edition GPL Source Code` to the more common `this program` which is used throughout the GPL.
     * Added a "trump clause" [2], in other words, any conflicts or disputes between the additional terms and the GPLv3 shall be resolved in favor of the GPLv3 by adding `Notwithstanding any other provision of this License` (as mentioned in GPL FAQ [3]) at the beginning of the additional terms.
-    
+
     [1] https://www.debian.org/social_contract#guidelines
     [2] https://www.fsf.org/news/canonical-updated-licensing-terms
     [3] https://www.gnu.org/licenses/gpl-faq.html#v3Notwithstanding
-    
+
     For more considerations, see also:
     https://www.whonix.org/wiki/Dev/Licensing
 
@@ -1778,7 +1790,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 10 15:47:52 2017 +0000
 
     remove faketime from Build-Depends:
-    
+
     since no longer used for reproducible builds
 
 commit b16851c3a7a253b32e6c9e5247777e674e2bcc97
@@ -1834,7 +1846,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Jan 9 07:29:39 2017 +0000
 
     etc/skel/.bashrc.whonix: output uwt settings
-    
+
     https://phabricator.whonix.org/T73
 
 commit 86054834a124d3ea6589fba55f5e4c0415e66c0f
@@ -1866,7 +1878,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Jun 2 11:52:52 2016 +0000
 
     do not use tput if variable TERM is empty
-    
+
     https://phabricator.whonix.org/T505
 
 commit 94bbad0ef25aff14dc1f99bafb6d5267a9a7c4db
@@ -1880,7 +1892,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Apr 26 21:17:37 2016 +0000
 
     fixed access rights for first boot skel copy
-    
+
     https://phabricator.whonix.org/T419
 
 commit bb52be9cbc46379d1f2ae73dd842d881b8df79a6
@@ -1942,12 +1954,12 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Jan 8 00:47:37 2016 +0000
 
     Removed 'After=qubes-dvm.service'.
-    
+
     This caused a different issue earlier.
     'qvm-create-default-dvm whonix-ws - ERROR: Cannot start qubes-guid!'
-    
+
     https://github.com/QubesOS/qubes-issues/issues/1591
-    
+
     Thanks to @marmarek for debugging the other issue!
 
 commit d3d7da44e1e0ca1d8059c202abefce7e1181ce16
@@ -1955,7 +1967,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Jan 7 22:56:38 2016 +0000
 
     first-boot-skel: hide needless output of diff in the logs
-    
+
     https://phabricator.whonix.org/T419
 
 commit 63ed2423f4b6303af32d1daa8affb3e5006e6837
@@ -1963,7 +1975,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Jan 7 22:53:56 2016 +0000
 
     do not needlessly copy .bashrc.whonix-orig from skel to home
-    
+
     https://phabricator.whonix.org/T419
 
 commit 9ade708ed7288a1fec4a662b2bf062a8ebffc15c
@@ -1973,7 +1985,7 @@ Date:   Thu Jan 7 22:40:51 2016 +0000
     separate done file for Qubes TemplateVMs to make this work with the
     current home folder population for Qubes DispVMs.
     https://github.com/QubesOS/qubes-core-agent-linux/blob/f380c346cf9af3f058b8ece853d7d4a5ece28815/misc/dispvm-prerun.sh#L6-L12
-    
+
     https://phabricator.whonix.org/T419
     https://phabricator.whonix.org/T463
 
@@ -1982,7 +1994,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Jan 7 22:00:50 2016 +0000
 
     fix / code simplification
-    
+
     https://phabricator.whonix.org/T419
 
 commit 1b9242fa04ed283e0dc64b70ac8b4fa376ea6ca7
@@ -1996,7 +2008,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Dec 10 21:31:39 2015 +0000
 
     populate /home/user from /etc/skel at first boot
-    
+
     https://phabricator.whonix.org/T419
 
 commit dc4abe4c01d09b596518a4557c7143a373dea861
@@ -2004,9 +2016,9 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Dec 9 20:20:22 2015 +0000
 
     no longer show default username and password in terminal in Qubes
-    
+
     Thanks to @mfc for the report!
-    
+
     https://phabricator.whonix.org/T428
 
 commit 68caf8de77ac2262e88b1ce7271fe55bd7ac6f47
@@ -2032,7 +2044,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Dec 3 22:17:14 2015 +0000
 
     no longer write to home folder directly; use /etc/skel
-    
+
     https://phabricator.whonix.org/T419
 
 commit c3eda5fb185e5d7f847df1deada72fd1891d004c

@@ -1,3 +1,9 @@
+whonix-base-files (3:12.1-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 23 Apr 2026 10:42:37 +0000
+
 whonix-base-files (3:12.0-1) unstable; urgency=medium
 
   * New upstream version (local package).
