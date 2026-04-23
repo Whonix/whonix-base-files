@@ -61,7 +61,7 @@ esac
 
 true "CI: $CI"
 
-if [ "$CI" = "true" ]; then
+if [ "${CI:-}" = "true" ]; then
    ## config-package-dev displace of /etc/hosts broken on Travis CI.
    ## Therefore disabling errexit and ERR trap.
    ## https://api.travis-ci.org/v3/job/715156029/log.txt
