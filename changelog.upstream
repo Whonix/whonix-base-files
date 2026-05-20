@@ -1,3 +1,9 @@
+commit 3e80cb68a331c0b8b929f1d8841ce9dc358adbf5
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Apr 23 10:42:37 2026 +0000
+
+    bumped changelog version
+
 commit 2ab0bb54fa4f36b00cb216ba7e3bd8e3166937ce
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Apr 23 06:36:49 2026 -0400
@@ -1607,7 +1613,7 @@ Date:   Fri Mar 8 12:42:16 2019 +0000
             This is free software, and you are welcome to redistribute it
             under certain conditions; type `show c' for details.
 
-        The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.
+        The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an _about box_.
 
 commit 264cf5ad95d99f3c8221292083bd18e849509a44
 Author: Patrick Schleizer <adrelanos@riseup.net>
@@ -2164,7 +2170,7 @@ Date:   Tue Jan 13 11:53:10 2015 +0000
     Hide the Tor Browser Bundle (TBB) logo in tor-launcher. This is useful to
     avoid users confusing TBB and Whonix. Also useful when running tor-launcher
     in standalone mode, because then it's not TBB that is starting. Lastly also
-    useful avoid ​trademark issues when redistributing original, unmodified TBB
+    useful avoid _trademark issues when redistributing original, unmodified TBB
     in (linux) distributions.
     https://trac.torproject.org/projects/tor/ticket/14122
     https://www.torproject.org/docs/trademark-faq.html.en
